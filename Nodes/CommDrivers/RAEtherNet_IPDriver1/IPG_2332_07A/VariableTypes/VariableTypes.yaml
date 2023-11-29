@@ -1,0 +1,4851 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: 'AB:1734_OE2:O:0'
+  Id: g=202544733d296a14dceead46e30e3799
+  Supertype: TagStructure
+  DataType: 'AB:1734_OE2:O:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "3c7a1d9a2b63c52b851593931813856d",
+     "Namespace": 7
+    },
+    "Body": {
+     "Ch0Data": 0,
+     "Ch1Data": 0
+    }
+   }
+  Children:
+  - Name: Ch0Data
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ch0Data"
+  - Name: Ch1Data
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ch1Data"
+- Name: udt_Zaber_Axis
+  Id: g=09ca24760b160e29004d38ba4f4a6e57
+  Supertype: TagStructure
+  DataType: udt_Zaber_Axis
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "d9ef41a38c334635aebe31b321b27601",
+     "Namespace": 7
+    },
+    "Body": {
+     "ActPos": 0,
+     "CmdPos": "",
+     "Home": false,
+     "Home_String": "",
+     "InPos": false,
+     "MovAbs": false,
+     "MovAbs_String": "",
+     "MovRel": false,
+     "MovRel_String": "",
+     "Read_String": "",
+     "Reset": false,
+     "Return_String": "",
+     "Write": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Namespace": 7
+      },
+      "Body": {
+       "DN": false,
+       "EM": false,
+       "EN": false,
+       "ER": false,
+       "ERROR": 0,
+       "EU": false,
+       "FD": false,
+       "LEN": 0,
+       "POS": 0,
+       "RN": false,
+       "UL": false
+      }
+     },
+     "Write_String": "",
+     "WriteReq": false
+    }
+   }
+  Children:
+  - Name: ActPos
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ActPos"
+  - Name: CmdPos
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CmdPos"
+  - Name: Home
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Home"
+  - Name: Home_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Home_String"
+  - Name: InPos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InPos"
+  - Name: MovAbs
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MovAbs"
+  - Name: MovAbs_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MovAbs_String"
+  - Name: MovRel
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MovRel"
+  - Name: MovRel_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MovRel_String"
+  - Name: Read_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Read_String"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reset"
+  - Name: Return_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Return_String"
+  - Name: Write
+    Type: SERIAL_PORT_CONTROL
+    DataType: SERIAL_PORT_CONTROL
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Namespace": 7
+      },
+      "Body": {
+       "DN": false,
+       "EM": false,
+       "EN": false,
+       "ER": false,
+       "ERROR": 0,
+       "EU": false,
+       "FD": false,
+       "LEN": 0,
+       "POS": 0,
+       "RN": false,
+       "UL": false
+      }
+     }
+    Children:
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EM
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EM"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: ER
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ER"
+    - Name: ERROR
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ERROR"
+    - Name: EU
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EU"
+    - Name: FD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "FD"
+    - Name: LEN
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LEN"
+    - Name: POS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "POS"
+    - Name: RN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "RN"
+    - Name: UL
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UL"
+  - Name: Write_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Write_String"
+  - Name: WriteReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "WriteReq"
+- Name: udt_Controller_Status
+  Id: g=d46fa41baf63d171be17941e565092e3
+  Supertype: TagStructure
+  DataType: udt_Controller_Status
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "c0e428e1bb806ee095fbb0df087fb35e",
+     "Namespace": 7
+    },
+    "Body": {
+     "Battery_Status": false,
+     "Controller_Mode": 0,
+     "Controller_Status": 0,
+     "Device_Status": 0,
+     "Fault_Status": 0,
+     "Forces_Enabled": false,
+     "Forces_Installed": false,
+     "Forces_Status": 0,
+     "IO_Status": 0,
+     "Key_Switch_Status": 0,
+     "Minor_Fault": 0
+    }
+   }
+  Children:
+  - Name: Battery_Status
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Battery_Status"
+  - Name: Controller_Mode
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Controller_Mode"
+  - Name: Controller_Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Controller_Status"
+  - Name: Device_Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Device_Status"
+  - Name: Fault_Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Fault_Status"
+  - Name: Forces_Enabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Forces_Enabled"
+  - Name: Forces_Installed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Forces_Installed"
+  - Name: Forces_Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Forces_Status"
+  - Name: IO_Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "IO_Status"
+  - Name: Key_Switch_Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Key_Switch_Status"
+  - Name: Minor_Fault
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Minor_Fault"
+- Name: 'AB:Embedded_DiscreteIO:O:0'
+  Id: g=88d75762258bbf5f94d2f4d4d40f36eb
+  Supertype: TagStructure
+  DataType: 'AB:Embedded_DiscreteIO:O:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "4f35cc9ef4661bfea736291335f8137c",
+     "Namespace": 7
+    },
+    "Body": {
+     "Data": 0
+    }
+   }
+  Children:
+  - Name: Data
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Data"
+- Name: udt_Station_Sequence
+  Id: g=805200e79845727d55bbe609f3ebda3a
+  Supertype: TagStructure
+  DataType: udt_Station_Sequence
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "f4c6f69f27cb8461a156a05637776e4d",
+     "Namespace": 7
+    },
+    "Body": {
+     "Done": false,
+     "Home": false,
+     "In_Process": false,
+     "OS": 0,
+     "OS1": 0,
+     "OS2": 0,
+     "Position": 0,
+     "Request": false,
+     "StepOS": 0,
+     "StepOS1": 0,
+     "StepOS2": 0,
+     "Timer": [{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Namespace": 7
+       },
+       "Body": {
+        "ACC": 0,
+        "DN": false,
+        "EN": false,
+        "PRE": 0,
+        "TT": false
+       }
+      }]
+    }
+   }
+  Children:
+  - Name: Done
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Done"
+  - Name: Home
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Home"
+  - Name: In_Process
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "In_Process"
+  - Name: OS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OS"
+  - Name: OS1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OS1"
+  - Name: OS2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OS2"
+  - Name: Position
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Position"
+  - Name: Request
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Request"
+  - Name: StepOS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "StepOS"
+  - Name: StepOS1
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "StepOS1"
+  - Name: StepOS2
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "StepOS2"
+  - Name: Timer
+    Type: TIMER
+    DataType: TIMER
+    ValueRank: OneDimension
+    ArrayDimensions: [20]
+    Value: [{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}}]
+    Children:
+    - Name: 0
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 1
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 2
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 3
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 4
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 5
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 6
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 7
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 8
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 9
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 10
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 11
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 12
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 13
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 14
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 15
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 16
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 17
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 18
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+    - Name: 19
+      Type: TIMER
+      DataType: TIMER
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Namespace": 7
+        },
+        "Body": {
+         "ACC": 0,
+         "DN": false,
+         "EN": false,
+         "PRE": 0,
+         "TT": false
+        }
+       }
+      Children:
+      - Name: ACC
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "ACC"
+      - Name: DN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "DN"
+      - Name: EN
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "EN"
+      - Name: PRE
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "PRE"
+      - Name: TT
+        Type: RAEtherNetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "TT"
+- Name: DateTime
+  Id: g=0a2abb9c3ae1ed11b4c3820f36f4cfe2
+  Supertype: TagStructure
+  DataType: ns=7;DateTime
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "28ff9f6d7b6ea60806f253ad480c5630",
+     "Namespace": 7
+    },
+    "Body": {
+     "Day": 0,
+     "Hour": 0,
+     "MicroSecond": 0,
+     "Minute": 0,
+     "Month": 0,
+     "Second": 0,
+     "Year": 0
+    }
+   }
+  Children:
+  - Name: Day
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Day"
+  - Name: Hour
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Hour"
+  - Name: MicroSecond
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MicroSecond"
+  - Name: Minute
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Minute"
+  - Name: Month
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Month"
+  - Name: Second
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Second"
+  - Name: Year
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Year"
+- Name: 'AB:Embedded_DiscreteIO:I:0'
+  Id: g=fa3b8445ee9eca90ad65fa907f5c1972
+  Supertype: TagStructure
+  DataType: 'AB:Embedded_DiscreteIO:I:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "6ec772a7fb3871cad0bae3a2fba1bc10",
+     "Namespace": 7
+    },
+    "Body": {
+     "Data": 0,
+     "Fault": 0
+    }
+   }
+  Children:
+  - Name: Data
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Data"
+  - Name: Fault
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Fault"
+- Name: udt_LED
+  Id: g=2a72abd428503dbab33c62352439baa4
+  Supertype: TagStructure
+  DataType: udt_LED
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "9a81cd8f6e8fc898618d325fa6a5511d",
+     "Namespace": 7
+    },
+    "Body": {
+     "Delay_Time": 0.0,
+     "Delay_Timer": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Max_Voltage": 0,
+     "On_Time": 0.0,
+     "On_Timer": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Ramp_Time": 0.0,
+     "Ramp_Timer": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Voltage_Out": 0
+    }
+   }
+  Children:
+  - Name: Delay_Time
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Delay_Time"
+  - Name: Delay_Timer
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Max_Voltage
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Max_Voltage"
+  - Name: On_Time
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "On_Time"
+  - Name: On_Timer
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Ramp_Time
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ramp_Time"
+  - Name: Ramp_Timer
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Voltage_Out
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Voltage_Out"
+- Name: 'AB:Embedded_DiscreteIO:C:0'
+  Id: g=00b3477d77f9ed4259e56f7c815da0f3
+  Supertype: TagStructure
+  DataType: 'AB:Embedded_DiscreteIO:C:0'
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "bf9abf2e214115bb1dbe4162bbd25de0",
+     "Namespace": 7
+    },
+    "Body": {
+     "COSOffOnEn": 0,
+     "COSOnOffEn": 0,
+     "FaultMode": 0,
+     "FaultValue": 0,
+     "ProgMode": 0,
+     "ProgValue": 0,
+     "Pt00FilterOffOn": 0,
+     "Pt00FilterOnOff": 0,
+     "Pt01FilterOffOn": 0,
+     "Pt01FilterOnOff": 0,
+     "Pt02FilterOffOn": 0,
+     "Pt02FilterOnOff": 0,
+     "Pt03FilterOffOn": 0,
+     "Pt03FilterOnOff": 0,
+     "Pt04FilterOffOn": 0,
+     "Pt04FilterOnOff": 0,
+     "Pt05FilterOffOn": 0,
+     "Pt05FilterOnOff": 0,
+     "Pt06FilterOffOn": 0,
+     "Pt06FilterOnOff": 0,
+     "Pt07FilterOffOn": 0,
+     "Pt07FilterOnOff": 0,
+     "Pt08FilterOffOn": 0,
+     "Pt08FilterOnOff": 0,
+     "Pt09FilterOffOn": 0,
+     "Pt09FilterOnOff": 0,
+     "Pt10FilterOffOn": 0,
+     "Pt10FilterOnOff": 0,
+     "Pt11FilterOffOn": 0,
+     "Pt11FilterOnOff": 0,
+     "Pt12FilterOffOn": 0,
+     "Pt12FilterOnOff": 0,
+     "Pt13FilterOffOn": 0,
+     "Pt13FilterOnOff": 0,
+     "Pt14FilterOffOn": 0,
+     "Pt14FilterOnOff": 0,
+     "Pt15FilterOffOn": 0,
+     "Pt15FilterOnOff": 0
+    }
+   }
+  Children:
+  - Name: COSOffOnEn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "COSOffOnEn"
+  - Name: COSOnOffEn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "COSOnOffEn"
+  - Name: FaultMode
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FaultMode"
+  - Name: FaultValue
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FaultValue"
+  - Name: ProgMode
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgMode"
+  - Name: ProgValue
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgValue"
+  - Name: Pt00FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt00FilterOffOn"
+  - Name: Pt00FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt00FilterOnOff"
+  - Name: Pt01FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt01FilterOffOn"
+  - Name: Pt01FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt01FilterOnOff"
+  - Name: Pt02FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt02FilterOffOn"
+  - Name: Pt02FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt02FilterOnOff"
+  - Name: Pt03FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt03FilterOffOn"
+  - Name: Pt03FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt03FilterOnOff"
+  - Name: Pt04FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt04FilterOffOn"
+  - Name: Pt04FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt04FilterOnOff"
+  - Name: Pt05FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt05FilterOffOn"
+  - Name: Pt05FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt05FilterOnOff"
+  - Name: Pt06FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt06FilterOffOn"
+  - Name: Pt06FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt06FilterOnOff"
+  - Name: Pt07FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt07FilterOffOn"
+  - Name: Pt07FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt07FilterOnOff"
+  - Name: Pt08FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt08FilterOffOn"
+  - Name: Pt08FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt08FilterOnOff"
+  - Name: Pt09FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt09FilterOffOn"
+  - Name: Pt09FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt09FilterOnOff"
+  - Name: Pt10FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt10FilterOffOn"
+  - Name: Pt10FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt10FilterOnOff"
+  - Name: Pt11FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt11FilterOffOn"
+  - Name: Pt11FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt11FilterOnOff"
+  - Name: Pt12FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt12FilterOffOn"
+  - Name: Pt12FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt12FilterOnOff"
+  - Name: Pt13FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt13FilterOffOn"
+  - Name: Pt13FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt13FilterOnOff"
+  - Name: Pt14FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt14FilterOffOn"
+  - Name: Pt14FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt14FilterOnOff"
+  - Name: Pt15FilterOffOn
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt15FilterOffOn"
+  - Name: Pt15FilterOnOff
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pt15FilterOnOff"
+- Name: udt_Machine_Control
+  Id: g=e933a021ff6c6593888b00d7073a4553
+  Supertype: TagStructure
+  DataType: udt_Machine_Control
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "6a2a48925c0bed0566c55dc320ae44f0",
+     "Namespace": 7
+    },
+    "Body": {
+     "Alarm": false,
+     "Alarm_Monitor": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
+     "Auto_Mode": false,
+     "Auto_Off_OS": false,
+     "Auto_On_OS": false,
+     "Conveyor_Speed": 0.0,
+     "Conveyor_Start_Dly": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Conveyor_Stop": false,
+     "Conveyor_Stop_Req": false,
+     "Conveyors_Off_OS": false,
+     "Conveyors_On_OS": false,
+     "Conveyors_Run": false,
+     "Conveyors_Running": false,
+     "Counts": [0,0,0],
+     "Cycle_Enable": false,
+     "Cycle_Time": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Fault_Reset": false,
+     "Guard_Close_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Guard_Closed": false,
+     "Guard_Unlock_Dly": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Guard_Unlock_Timer": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "HMI_Mode_Color": "",
+     "HMI_Mode_Text": "",
+     "HMI_PB": 0,
+     "HMI_PB_OS": 0,
+     "Master_Reset": false,
+     "Message_Index": 0,
+     "OS": 0,
+     "Pwr_On": false,
+     "Pwr_On_Dly": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Pwr_Up_Chk": false,
+     "Reset": false,
+     "Reset_Cnt": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e80ec12f06837aa51ebd4aabd3bf360d",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     },
+     "Reset_Counts": false,
+     "Reset_Duration": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Reset_OS": false,
+     "Safety_OK": false,
+     "Safety_Ok_Dly": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Sequence_Reset": false,
+     "Start_OS": false,
+     "Stop": false,
+     "Stop_Pos": false,
+     "Stop_Req": false,
+     "Update_OS": false
+    }
+   }
+  Children:
+  - Name: Alarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarm"
+  - Name: Alarm_Monitor
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [32]
+    Value: [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Alarm_Monitor"
+  - Name: Auto_Mode
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Mode"
+  - Name: Auto_Off_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_Off_OS"
+  - Name: Auto_On_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Auto_On_OS"
+  - Name: Conveyor_Speed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Conveyor_Speed"
+  - Name: Conveyor_Start_Dly
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Conveyor_Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Conveyor_Stop"
+  - Name: Conveyor_Stop_Req
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Conveyor_Stop_Req"
+  - Name: Conveyors_Off_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Conveyors_Off_OS"
+  - Name: Conveyors_On_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Conveyors_On_OS"
+  - Name: Conveyors_Run
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Conveyors_Run"
+  - Name: Conveyors_Running
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Conveyors_Running"
+  - Name: Counts
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [3]
+    Value: [0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Counts"
+  - Name: Cycle_Enable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Cycle_Enable"
+  - Name: Cycle_Time
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Fault_Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Fault_Reset"
+  - Name: Guard_Close_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Guard_Closed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Guard_Closed"
+  - Name: Guard_Unlock_Dly
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Guard_Unlock_Timer
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: HMI_Mode_Color
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_Mode_Color"
+  - Name: HMI_Mode_Text
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_Mode_Text"
+  - Name: HMI_PB
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_PB"
+  - Name: HMI_PB_OS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "HMI_PB_OS"
+  - Name: Master_Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Master_Reset"
+  - Name: Message_Index
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Message_Index"
+  - Name: OS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OS"
+  - Name: Pwr_On
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pwr_On"
+  - Name: Pwr_On_Dly
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Pwr_Up_Chk
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pwr_Up_Chk"
+  - Name: Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reset"
+  - Name: Reset_Cnt
+    Type: COUNTER
+    DataType: COUNTER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "e80ec12f06837aa51ebd4aabd3bf360d",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "CD": false,
+       "CU": false,
+       "DN": false,
+       "OV": false,
+       "PRE": 0,
+       "UN": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: CD
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CD"
+    - Name: CU
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CU"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: OV
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OV"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: UN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN"
+  - Name: Reset_Counts
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reset_Counts"
+  - Name: Reset_Duration
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Reset_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Reset_OS"
+  - Name: Safety_OK
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Safety_OK"
+  - Name: Safety_Ok_Dly
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+  - Name: Sequence_Reset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sequence_Reset"
+  - Name: Start_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Start_OS"
+  - Name: Stop
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Stop"
+  - Name: Stop_Pos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Stop_Pos"
+  - Name: Stop_Req
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Stop_Req"
+  - Name: Update_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Update_OS"
+- Name: TIMER
+  Id: g=1fa32c45d0216ec1ea2b2d48fa46bbd9
+  Supertype: TagStructure
+  DataType: TIMER
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+     "Namespace": 7
+    },
+    "Body": {
+     "ACC": 0,
+     "DN": false,
+     "EN": false,
+     "PRE": 0,
+     "TT": false
+    }
+   }
+  Children:
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ACC"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DN"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EN"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PRE"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "TT"
+- Name: COUNTER
+  Id: g=072a663eb6c0c3c310d4f02658882b01
+  Supertype: TagStructure
+  DataType: COUNTER
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "e80ec12f06837aa51ebd4aabd3bf360d",
+     "Namespace": 7
+    },
+    "Body": {
+     "ACC": 0,
+     "CD": false,
+     "CU": false,
+     "DN": false,
+     "OV": false,
+     "PRE": 0,
+     "UN": false
+    }
+   }
+  Children:
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ACC"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CD"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OV"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PRE"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UN"
+- Name: SERIAL_PORT_CONTROL
+  Id: g=bd6a3d3ea9cec7574215d6ead49918b5
+  Supertype: TagStructure
+  DataType: SERIAL_PORT_CONTROL
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+     "Namespace": 7
+    },
+    "Body": {
+     "DN": false,
+     "EM": false,
+     "EN": false,
+     "ER": false,
+     "ERROR": 0,
+     "EU": false,
+     "FD": false,
+     "LEN": 0,
+     "POS": 0,
+     "RN": false,
+     "UL": false
+    }
+   }
+  Children:
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DN"
+  - Name: EM
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EM"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EN"
+  - Name: ER
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ER"
+  - Name: ERROR
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ERROR"
+  - Name: EU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EU"
+  - Name: FD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "FD"
+  - Name: LEN
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "LEN"
+  - Name: POS
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "POS"
+  - Name: RN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RN"
+  - Name: UL
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UL"
+- Name: ALARM_DIGITAL
+  Id: g=714018ca4d65eab1908ba98009633c01
+  Supertype: TagStructure
+  DataType: ALARM_DIGITAL
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "4adefd05d57989678fa8531cab373fa6",
+     "Namespace": 7
+    },
+    "Body": {
+     "Acked": false,
+     "AckRequired": false,
+     "AckTime": 0,
+     "AlarmCount": 0,
+     "AlarmCountReset": false,
+     "AlarmCountResetTime": 0,
+     "Commissioned": false,
+     "Condition": false,
+     "Disabled": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "In": false,
+     "InAlarm": false,
+     "InAlarmTime": 0,
+     "InAlarmUnack": false,
+     "InFault": false,
+     "InFaulted": false,
+     "InstructFault": false,
+     "Latched": false,
+     "MaxShelveDuration": 0,
+     "MinDurationACC": 0,
+     "MinDurationPRE": 0,
+     "OperAck": false,
+     "OperDisable": false,
+     "OperEnable": false,
+     "OperReset": false,
+     "OperShelve": false,
+     "OperSuppress": false,
+     "OperUnshelve": false,
+     "OperUnsuppress": false,
+     "ProgAck": false,
+     "ProgDisable": false,
+     "ProgEnable": false,
+     "ProgReset": false,
+     "ProgSuppress": false,
+     "ProgTime": 0,
+     "ProgUnshelve": false,
+     "ProgUnsuppress": false,
+     "RetToNormalTime": 0,
+     "Severity": 0,
+     "SeverityInv": false,
+     "Shelved": false,
+     "ShelveDuration": 0,
+     "ShelveTime": 0,
+     "Status": 0,
+     "Suppressed": false,
+     "UnshelveTime": 0,
+     "UseProgTime": false
+    }
+   }
+  Children:
+  - Name: Acked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Acked"
+  - Name: AckRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AckRequired"
+  - Name: AckTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AckTime"
+  - Name: AlarmCount
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AlarmCount"
+  - Name: AlarmCountReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AlarmCountReset"
+  - Name: AlarmCountResetTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "AlarmCountResetTime"
+  - Name: Commissioned
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Commissioned"
+  - Name: Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Condition"
+  - Name: Disabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Disabled"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "In"
+  - Name: InAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InAlarm"
+  - Name: InAlarmTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InAlarmTime"
+  - Name: InAlarmUnack
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InAlarmUnack"
+  - Name: InFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InFault"
+  - Name: InFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InFaulted"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "InstructFault"
+  - Name: Latched
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Latched"
+  - Name: MaxShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MaxShelveDuration"
+  - Name: MinDurationACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MinDurationACC"
+  - Name: MinDurationPRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "MinDurationPRE"
+  - Name: OperAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperAck"
+  - Name: OperDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperDisable"
+  - Name: OperEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperEnable"
+  - Name: OperReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperReset"
+  - Name: OperShelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperShelve"
+  - Name: OperSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperSuppress"
+  - Name: OperUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperUnshelve"
+  - Name: OperUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OperUnsuppress"
+  - Name: ProgAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgAck"
+  - Name: ProgDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgDisable"
+  - Name: ProgEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgEnable"
+  - Name: ProgReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgReset"
+  - Name: ProgSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgSuppress"
+  - Name: ProgTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgTime"
+  - Name: ProgUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgUnshelve"
+  - Name: ProgUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ProgUnsuppress"
+  - Name: RetToNormalTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RetToNormalTime"
+  - Name: Severity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Severity"
+  - Name: SeverityInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "SeverityInv"
+  - Name: Shelved
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Shelved"
+  - Name: ShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ShelveDuration"
+  - Name: ShelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ShelveTime"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Status"
+  - Name: Suppressed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Suppressed"
+  - Name: UnshelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UnshelveTime"
+  - Name: UseProgTime
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UseProgTime"

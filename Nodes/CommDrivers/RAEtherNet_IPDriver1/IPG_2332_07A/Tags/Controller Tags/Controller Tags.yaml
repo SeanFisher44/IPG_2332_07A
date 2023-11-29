@@ -1,0 +1,289 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: 'Local:1:C'
+  Type: 'AB:Embedded_DiscreteIO:C:0'
+  DataType: 'AB:Embedded_DiscreteIO:C:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "bf9abf2e214115bb1dbe4162bbd25de0",
+     "Namespace": 7
+    },
+    "Body": {
+     "COSOffOnEn": 0,
+     "COSOnOffEn": 0,
+     "FaultMode": 0,
+     "FaultValue": 0,
+     "ProgMode": 0,
+     "ProgValue": 0,
+     "Pt00FilterOffOn": 0,
+     "Pt00FilterOnOff": 0,
+     "Pt01FilterOffOn": 0,
+     "Pt01FilterOnOff": 0,
+     "Pt02FilterOffOn": 0,
+     "Pt02FilterOnOff": 0,
+     "Pt03FilterOffOn": 0,
+     "Pt03FilterOnOff": 0,
+     "Pt04FilterOffOn": 0,
+     "Pt04FilterOnOff": 0,
+     "Pt05FilterOffOn": 0,
+     "Pt05FilterOnOff": 0,
+     "Pt06FilterOffOn": 0,
+     "Pt06FilterOnOff": 0,
+     "Pt07FilterOffOn": 0,
+     "Pt07FilterOnOff": 0,
+     "Pt08FilterOffOn": 0,
+     "Pt08FilterOnOff": 0,
+     "Pt09FilterOffOn": 0,
+     "Pt09FilterOnOff": 0,
+     "Pt10FilterOffOn": 0,
+     "Pt10FilterOnOff": 0,
+     "Pt11FilterOffOn": 0,
+     "Pt11FilterOnOff": 0,
+     "Pt12FilterOffOn": 0,
+     "Pt12FilterOnOff": 0,
+     "Pt13FilterOffOn": 0,
+     "Pt13FilterOnOff": 0,
+     "Pt14FilterOffOn": 0,
+     "Pt14FilterOnOff": 0,
+     "Pt15FilterOffOn": 0,
+     "Pt15FilterOnOff": 0
+    }
+   }
+  Children:
+  - Name: FaultMode
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:1:C.FaultMode"
+  - Name: FaultValue
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:1:C.FaultValue"
+  - Name: ProgMode
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:1:C.ProgMode"
+- Name: 'Local:1:I'
+  Type: 'AB:Embedded_DiscreteIO:I:0'
+  DataType: 'AB:Embedded_DiscreteIO:I:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "6ec772a7fb3871cad0bae3a2fba1bc10",
+     "Namespace": 7
+    },
+    "Body": {
+     "Data": 0,
+     "Fault": 0
+    }
+   }
+  Children:
+  - Name: Data
+    Id: g=398f7279afe85a29b0de5886fd943381
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:1:I.Data"
+- Name: 'Local:1:O'
+  Type: 'AB:Embedded_DiscreteIO:O:0'
+  DataType: 'AB:Embedded_DiscreteIO:O:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "4f35cc9ef4661bfea736291335f8137c",
+     "Namespace": 7
+    },
+    "Body": {
+     "Data": 0
+    }
+   }
+  Children:
+  - Name: Data
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:1:O.Data"
+- Name: 'Local:3:O'
+  Type: 'AB:1734_OE2:O:0'
+  DataType: 'AB:1734_OE2:O:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "3c7a1d9a2b63c52b851593931813856d",
+     "Namespace": 7
+    },
+    "Body": {
+     "Ch0Data": 0,
+     "Ch1Data": 0
+    }
+   }
+  Children:
+  - Name: Ch0Data
+    Id: g=0450b4aae30670fd4ecf2a1fd14cfc43
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:3:O.Ch0Data"
+  - Name: Ch1Data
+    Id: g=f67ca599e1aa53827ba170625216e1c5
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:3:O.Ch1Data"
+- Name: 'Local:4:O'
+  Type: 'AB:1734_OE2:O:0'
+  DataType: 'AB:1734_OE2:O:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "3c7a1d9a2b63c52b851593931813856d",
+     "Namespace": 7
+    },
+    "Body": {
+     "Ch0Data": 0,
+     "Ch1Data": 0
+    }
+   }
+  Children:
+  - Name: Ch0Data
+    Id: g=c5aa37a7a3e04cf91c5bb6f3f0f8776e
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:4:O.Ch0Data"
+  - Name: Ch1Data
+    Id: g=309c70e1c3a317eab930b7f8dd966c99
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Local:4:O.Ch1Data"
+- Name: DateTime
+  Type: DateTime
+  DataType: ns=7;DateTime
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "28ff9f6d7b6ea60806f253ad480c5630",
+     "Namespace": 7
+    },
+    "Body": {
+     "Day": 0,
+     "Hour": 0,
+     "MicroSecond": 0,
+     "Minute": 0,
+     "Month": 0,
+     "Second": 0,
+     "Year": 0
+    }
+   }
+  Children:
+  - Name: Day
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DateTime.Day"
+  - Name: Hour
+    Id: g=94159ed8987ad2b50640f4129b74d199
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DateTime.Hour"
+  - Name: MicroSecond
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DateTime.MicroSecond"
+  - Name: Minute
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DateTime.Minute"
+  - Name: Month
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DateTime.Month"
+  - Name: Second
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DateTime.Second"
+  - Name: Year
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DateTime.Year"

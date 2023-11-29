@@ -1,0 +1,4 @@
+Name: RAEtherNet_IPDriver1
+Type: RAEtherNetIPDriver
+Children:
+- File: IPG_2332_07A/IPG_2332_07A.yaml
