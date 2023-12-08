@@ -8,7 +8,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "4adefd05d57989678fa8531cab373fa6",
+     "Id": "a19b1b27690bcfce52a14e451a42b800",
      "Namespace": 7
     },
     "Body": {
@@ -496,18 +496,19 @@ Children:
       DataType: String
       Value: "Program:MainProgram_10Ms.p_ALMD_02.UseProgTime"
 - Name: p_Control
-  Type: udt_Machine_Control
-  DataType: udt_Machine_Control
+  Type: udt_Machine_Control_V2
+  DataType: udt_Machine_Control_V2
   Value: 
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "6a2a48925c0bed0566c55dc320ae44f0",
+     "Id": "e374606959392eeebe6fe9886479c0e2",
      "Namespace": 7
     },
     "Body": {
      "Alarm": false,
      "Alarm_Monitor": [false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false],
+     "Alarm_Silence": false,
      "Auto_Mode": false,
      "Auto_Off_OS": false,
      "Auto_On_OS": false,
@@ -515,7 +516,7 @@ Children:
      "Conveyor_Start_Dly": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -537,7 +538,7 @@ Children:
      "Cycle_Time": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -552,7 +553,7 @@ Children:
      "Guard_Close_Delay": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -567,7 +568,7 @@ Children:
      "Guard_Unlock_Dly": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -581,7 +582,7 @@ Children:
      "Guard_Unlock_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -592,10 +593,19 @@ Children:
        "TT": false
       }
      },
-     "HMI_Mode_Color": "",
-     "HMI_Mode_Text": "",
-     "HMI_PB": 0,
-     "HMI_PB_OS": 0,
+     "HMI_Mode_Display": 0,
+     "HMI_PB": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     },
      "Master_Reset": false,
      "Message_Index": 0,
      "OS": 0,
@@ -603,7 +613,7 @@ Children:
      "Pwr_On_Dly": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -619,7 +629,7 @@ Children:
      "Reset_Cnt": {
       "TypeId": {
        "IdType": 2,
-       "Id": "e80ec12f06837aa51ebd4aabd3bf360d",
+       "Id": "d976800aba97067afdb6fc1bdb7f76ad",
        "Namespace": 7
       },
       "Body": {
@@ -636,7 +646,7 @@ Children:
      "Reset_Duration": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -652,7 +662,7 @@ Children:
      "Safety_Ok_Dly": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -664,6 +674,9 @@ Children:
       }
      },
      "Sequence_Reset": false,
+     "Single_Cycle": false,
+     "Single_Cycle_Off_OS": false,
+     "Single_Cycle_On_OS": false,
      "Start_OS": false,
      "Stop": false,
      "Stop_Pos": false,
@@ -736,7 +749,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -874,7 +887,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -947,7 +960,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -1020,7 +1033,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -1084,7 +1097,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -1141,43 +1154,60 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "Program:MainProgram_10Ms.p_Control.Guard_Unlock_Timer.TT"
-  - Name: HMI_Mode_Color
+  - Name: HMI_Mode_Display
     Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
+    DataType: Int32
+    Value: 0
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:MainProgram_10Ms.p_Control.HMI_Mode_Color"
-  - Name: HMI_Mode_Text
-    Type: RAEtherNetIPTag
-    DataType: String
-    Value: ""
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:MainProgram_10Ms.p_Control.HMI_Mode_Text"
+      Value: "Program:MainProgram_10Ms.p_Control.HMI_Mode_Display"
   - Name: HMI_PB
-    Id: g=62cef193f73d171961170ae70eeb78f7
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
+    Type: udt_HMI_PB
+    DataType: udt_HMI_PB
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     }
     Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:MainProgram_10Ms.p_Control.HMI_PB"
-  - Name: HMI_PB_OS
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Value: 0
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Program:MainProgram_10Ms.p_Control.HMI_PB_OS"
+    - Name: ONS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_Control.HMI_PB.ONS"
+    - Name: PB
+      Id: g=24a2af602eccef46f4ea0cd1cea0d373
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_Control.HMI_PB.PB"
+    - Name: PB_OS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_Control.HMI_PB.PB_OS"
   - Name: Master_Reset
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -1221,7 +1251,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -1288,7 +1318,6 @@ Children:
       DataType: String
       Value: "Program:MainProgram_10Ms.p_Control.Pwr_Up_Chk"
   - Name: Reset
-    Id: g=1acb3794d61ddfe6ae057fc18fa1338e
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -1304,7 +1333,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "e80ec12f06837aa51ebd4aabd3bf360d",
+       "Id": "d976800aba97067afdb6fc1bdb7f76ad",
        "Namespace": 7
       },
       "Body": {
@@ -1397,7 +1426,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -1479,7 +1508,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -1590,6 +1619,194 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_Control.Update_OS"
+- Name: Axis_Controller
+  Type: udt_Zaber_Axis
+  DataType: udt_Zaber_Axis
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "4013e0f1ed85688e639a1453854e60b0",
+     "Namespace": 7
+    },
+    "Body": {
+     "ActPos_mm": 0.0,
+     "ActPos_Step_Dint": 0,
+     "ActPos_Step_String": "",
+     "Axis_Dint": 0,
+     "Axis_String": "",
+     "Busy": "",
+     "BusyPos": 0,
+     "CmdPos_mm": 0.0,
+     "CmdPos_Step_Dint": 0,
+     "CmdPos_Step_String": "",
+     "Get_Pos": false,
+     "Get_Pos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Get_Pos_String": "",
+     "Go_CmdPos": false,
+     "Go_Home": false,
+     "HMI_PB": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     },
+     "Home": false,
+     "Home_String": "",
+     "Idle": "",
+     "IdlePos": 0,
+     "InPos": false,
+     "Jog_Fwd": false,
+     "Jog_Fwd_String": "",
+     "Jog_Rev": false,
+     "Jog_Rev_String": "",
+     "Jog_Value_mm": 0.0,
+     "Jog_Value_Step_Dint": 0,
+     "Jog_Value_Step_String": "",
+     "Manual_MovAbs": false,
+     "MovAbs": false,
+     "MovAbs_String": "",
+     "MoveReq": false,
+     "Moving": false,
+     "MovRel": false,
+     "MovRel_String": "",
+     "Read_String": "",
+     "Reset": false,
+     "Reset_String": "",
+     "Resloution": 0.0,
+     "Return_String": "",
+     "Status": "",
+     "Store_CmdPos": false,
+     "Store_CmdPos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Store_CmdPos_Reset_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "String_Pos_Found": 0,
+     "String_Pos_Length": 0,
+     "Write": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "59b67a20c90e854f2826f743018793db",
+       "Namespace": 7
+      },
+      "Body": {
+       "DN": false,
+       "EM": false,
+       "EN": false,
+       "ER": false,
+       "ERROR": 0,
+       "EU": false,
+       "FD": false,
+       "LEN": 0,
+       "POS": 0,
+       "RN": false,
+       "UL": false
+      }
+     },
+     "Write_String": "",
+     "WriteReq": false,
+     "Zero": ""
+    }
+   }
+  Children:
+  - Name: HMI_PB
+    Type: udt_HMI_PB
+    DataType: udt_HMI_PB
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     }
+    Children:
+    - Name: PB
+      Id: g=3b2b265f80bfa16281f2c4a4fa2b8a5e
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.Axis_Controller.HMI_PB.PB"
+    - Name: ONS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.Axis_Controller.HMI_PB.ONS"
+    - Name: PB_OS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.Axis_Controller.HMI_PB.PB_OS"
+- Name: p_Alarmed_Time
+  Id: g=0b68b6ce089c90984f297baad2d3c360
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_Alarmed_Time"
 - Name: p_ALMD_00
   Type: ALARM_DIGITAL
   DataType: ALARM_DIGITAL
@@ -1597,7 +1814,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "4adefd05d57989678fa8531cab373fa6",
+     "Id": "a19b1b27690bcfce52a14e451a42b800",
      "Namespace": 7
     },
     "Body": {
@@ -2091,7 +2308,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "4adefd05d57989678fa8531cab373fa6",
+     "Id": "a19b1b27690bcfce52a14e451a42b800",
      "Namespace": 7
     },
     "Body": {
@@ -2585,7 +2802,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "c0e428e1bb806ee095fbb0df087fb35e",
+     "Id": "f2889f2b07a639346b81e50680c6a7c3",
      "Namespace": 7
     },
     "Body": {
@@ -2713,7 +2930,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "f4c6f69f27cb8461a156a05637776e4d",
+     "Id": "e6ae2eb3cccd734ffbd22c8099e77dbe",
      "Namespace": 7
     },
     "Body": {
@@ -2725,13 +2942,14 @@ Children:
      "OS2": 0,
      "Position": 0,
      "Request": false,
+     "Result": false,
      "StepOS": 0,
      "StepOS1": 0,
      "StepOS2": 0,
      "Timer": [{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2744,7 +2962,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2757,7 +2975,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2770,7 +2988,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2783,7 +3001,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2796,7 +3014,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2809,7 +3027,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2822,7 +3040,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2835,7 +3053,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2848,7 +3066,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2861,7 +3079,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2874,7 +3092,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2887,7 +3105,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2900,7 +3118,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2913,7 +3131,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2926,7 +3144,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2939,7 +3157,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2952,7 +3170,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2965,7 +3183,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2978,7 +3196,7 @@ Children:
       },{
        "TypeId": {
         "IdType": 2,
-        "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+        "Id": "65326003791a76c033709431e7f7eb77",
         "Namespace": 7
        },
        "Body": {
@@ -2993,6 +3211,7 @@ Children:
    }
   Children:
   - Name: Done
+    Id: g=15371d8a7efe212188a0a2e6060f9f35
     Type: RAEtherNetIPTag
     DataType: Boolean
     Value: false
@@ -3047,7 +3266,6 @@ Children:
       DataType: String
       Value: "Program:MainProgram_10Ms.p_Sequence.OS2"
   - Name: Position
-    Id: g=30fa7c8b970d7e7f5e3d9603cafdb186
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
@@ -3065,6 +3283,16 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_Sequence.Request"
+  - Name: Result
+    Id: g=2b7449a70552bf3ff30f52b0d220641a
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_Sequence.Result"
   - Name: StepOS
     Type: RAEtherNetIPTag
     DataType: Int32
@@ -3097,7 +3325,7 @@ Children:
     DataType: TIMER
     ValueRank: OneDimension
     ArrayDimensions: [20]
-    Value: [{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"ed53d0a86d5e71a0d55690c30dee1e78","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}}]
+    Value: [{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}},{"TypeId":{"IdType":2,"Id":"65326003791a76c033709431e7f7eb77","Namespace":7},"Body":{"ACC":0,"DN":false,"EN":false,"PRE":0,"TT":false}}]
     Children:
     - Name: 0
       Type: TIMER
@@ -3106,7 +3334,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3170,7 +3398,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3234,7 +3462,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3298,7 +3526,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3362,7 +3590,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3426,7 +3654,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3490,7 +3718,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3554,7 +3782,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3618,7 +3846,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3682,7 +3910,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3746,7 +3974,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3810,7 +4038,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3874,7 +4102,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -3938,7 +4166,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -4002,7 +4230,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -4066,7 +4294,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -4130,7 +4358,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -4194,7 +4422,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -4258,7 +4486,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -4322,7 +4550,7 @@ Children:
        {
         "TypeId": {
          "IdType": 2,
-         "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+         "Id": "65326003791a76c033709431e7f7eb77",
          "Namespace": 7
         },
         "Body": {
@@ -4380,32 +4608,117 @@ Children:
           DataType: String
           Value: "Program:MainProgram_10Ms.p_Sequence.Timer[19].TT"
 - Name: p_FiberAxis
+  Id: g=196db9cb4ee0e1c5ea26382b7166ef8b
   Type: udt_Zaber_Axis
   DataType: udt_Zaber_Axis
   Value: 
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "d9ef41a38c334635aebe31b321b27601",
+     "Id": "4013e0f1ed85688e639a1453854e60b0",
      "Namespace": 7
     },
     "Body": {
-     "ActPos": 0,
-     "CmdPos": "",
+     "ActPos_mm": 0.0,
+     "ActPos_Step_Dint": 0,
+     "ActPos_Step_String": "",
+     "Axis_Dint": 0,
+     "Axis_String": "",
+     "Busy": "",
+     "BusyPos": 0,
+     "CmdPos_mm": 0.0,
+     "CmdPos_Step_Dint": 0,
+     "CmdPos_Step_String": "",
+     "Get_Pos": false,
+     "Get_Pos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Get_Pos_String": "",
+     "Go_CmdPos": false,
+     "Go_Home": false,
+     "HMI_PB": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     },
      "Home": false,
      "Home_String": "",
+     "Idle": "",
+     "IdlePos": 0,
      "InPos": false,
+     "Jog_Fwd": false,
+     "Jog_Fwd_String": "",
+     "Jog_Rev": false,
+     "Jog_Rev_String": "",
+     "Jog_Value_mm": 0.0,
+     "Jog_Value_Step_Dint": 0,
+     "Jog_Value_Step_String": "",
+     "Manual_MovAbs": false,
      "MovAbs": false,
      "MovAbs_String": "",
+     "MoveReq": false,
+     "Moving": false,
      "MovRel": false,
      "MovRel_String": "",
      "Read_String": "",
      "Reset": false,
+     "Reset_String": "",
+     "Resloution": 0.0,
      "Return_String": "",
+     "Status": "",
+     "Store_CmdPos": false,
+     "Store_CmdPos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Store_CmdPos_Reset_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "String_Pos_Found": 0,
+     "String_Pos_Length": 0,
      "Write": {
       "TypeId": {
        "IdType": 2,
-       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Id": "59b67a20c90e854f2826f743018793db",
        "Namespace": 7
       },
       "Body": {
@@ -4423,11 +4736,12 @@ Children:
       }
      },
      "Write_String": "",
-     "WriteReq": false
+     "WriteReq": false,
+     "Zero": ""
     }
    }
   Children:
-  - Name: ActPos
+  - Name: Axis_Dint
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
@@ -4435,8 +4749,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:MainProgram_10Ms.p_FiberAxis.ActPos"
-  - Name: CmdPos
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Axis_Dint"
+  - Name: Axis_String
     Type: RAEtherNetIPTag
     DataType: String
     Value: ""
@@ -4444,7 +4758,207 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:MainProgram_10Ms.p_FiberAxis.CmdPos"
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Axis_String"
+  - Name: Busy
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Busy"
+  - Name: BusyPos
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.BusyPos"
+  - Name: ActPos_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.ActPos_Step_String"
+  - Name: CmdPos_mm
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.CmdPos_mm"
+  - Name: CmdPos_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.CmdPos_Step_Dint"
+  - Name: CmdPos_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.CmdPos_Step_String"
+  - Name: Get_Pos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Get_Pos"
+  - Name: Get_Pos_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Get_Pos_Delay.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Get_Pos_Delay.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Get_Pos_Delay.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Get_Pos_Delay.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Get_Pos_Delay.TT"
+  - Name: Get_Pos_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Get_Pos_String"
+  - Name: Go_CmdPos
+    Id: g=144d1e808505bdf10ee584c2aa0bf6d2
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Go_CmdPos"
+  - Name: Go_Home
+    Id: g=38211c23e27c3a49c9e84b74d6b04638
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Go_Home"
+  - Name: HMI_PB
+    Type: udt_HMI_PB
+    DataType: udt_HMI_PB
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     }
+    Children:
+    - Name: ONS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.HMI_PB.ONS"
+    - Name: PB
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.HMI_PB.PB"
+    - Name: PB_OS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.HMI_PB.PB_OS"
   - Name: Home
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4463,6 +4977,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_FiberAxis.Home_String"
+  - Name: Idle
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Idle"
+  - Name: IdlePos
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.IdlePos"
   - Name: InPos
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4472,6 +5004,78 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_FiberAxis.InPos"
+  - Name: Jog_Fwd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Jog_Fwd"
+  - Name: Jog_Fwd_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Jog_Fwd_String"
+  - Name: Jog_Rev
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Jog_Rev"
+  - Name: Jog_Rev_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Jog_Rev_String"
+  - Name: Jog_Value_mm
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Jog_Value_mm"
+  - Name: Jog_Value_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Jog_Value_Step_Dint"
+  - Name: Jog_Value_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Jog_Value_Step_String"
+  - Name: Manual_MovAbs
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Manual_MovAbs"
   - Name: MovAbs
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4490,6 +5094,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_FiberAxis.MovAbs_String"
+  - Name: MoveReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.MoveReq"
+  - Name: Moving
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Moving"
   - Name: MovRel
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4526,6 +5148,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_FiberAxis.Reset"
+  - Name: Resloution
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Resloution"
   - Name: Return_String
     Type: RAEtherNetIPTag
     DataType: String
@@ -4535,6 +5166,106 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_FiberAxis.Return_String"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Status"
+  - Name: Store_CmdPos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos"
+  - Name: Store_CmdPos_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Delay.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Delay.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Delay.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Delay.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Delay.TT"
+  - Name: String_Pos_Found
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.String_Pos_Found"
+  - Name: String_Pos_Length
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.String_Pos_Length"
   - Name: Write
     Type: SERIAL_PORT_CONTROL
     DataType: SERIAL_PORT_CONTROL
@@ -4542,7 +5273,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Id": "59b67a20c90e854f2826f743018793db",
        "Namespace": 7
       },
       "Body": {
@@ -4677,33 +5408,210 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_FiberAxis.WriteReq"
+  - Name: Zero
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.Zero"
+  - Name: Store_CmdPos_Reset_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Reset_Delay.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Reset_Delay.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Reset_Delay.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Reset_Delay.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_FiberAxis.Store_CmdPos_Reset_Delay.DN"
+  - Name: ActPos_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.ActPos_Step_Dint"
+  - Name: ActPos_mm
+    Id: g=5b42354e9015b4cf83873a1ba96ad4d4
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_FiberAxis.ActPos_mm"
 - Name: p_SyringeAxis
+  Id: g=3a934700dd1e5ebc0b9b027968c7dcec
   Type: udt_Zaber_Axis
   DataType: udt_Zaber_Axis
   Value: 
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "d9ef41a38c334635aebe31b321b27601",
+     "Id": "4013e0f1ed85688e639a1453854e60b0",
      "Namespace": 7
     },
     "Body": {
-     "ActPos": 0,
-     "CmdPos": "",
+     "ActPos_mm": 0.0,
+     "ActPos_Step_Dint": 0,
+     "ActPos_Step_String": "",
+     "Axis_Dint": 0,
+     "Axis_String": "",
+     "Busy": "",
+     "BusyPos": 0,
+     "CmdPos_mm": 0.0,
+     "CmdPos_Step_Dint": 0,
+     "CmdPos_Step_String": "",
+     "Get_Pos": false,
+     "Get_Pos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Get_Pos_String": "",
+     "Go_CmdPos": false,
+     "Go_Home": false,
+     "HMI_PB": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     },
      "Home": false,
      "Home_String": "",
+     "Idle": "",
+     "IdlePos": 0,
      "InPos": false,
+     "Jog_Fwd": false,
+     "Jog_Fwd_String": "",
+     "Jog_Rev": false,
+     "Jog_Rev_String": "",
+     "Jog_Value_mm": 0.0,
+     "Jog_Value_Step_Dint": 0,
+     "Jog_Value_Step_String": "",
+     "Manual_MovAbs": false,
      "MovAbs": false,
      "MovAbs_String": "",
+     "MoveReq": false,
+     "Moving": false,
      "MovRel": false,
      "MovRel_String": "",
      "Read_String": "",
      "Reset": false,
+     "Reset_String": "",
+     "Resloution": 0.0,
      "Return_String": "",
+     "Status": "",
+     "Store_CmdPos": false,
+     "Store_CmdPos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Store_CmdPos_Reset_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "String_Pos_Found": 0,
+     "String_Pos_Length": 0,
      "Write": {
       "TypeId": {
        "IdType": 2,
-       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Id": "59b67a20c90e854f2826f743018793db",
        "Namespace": 7
       },
       "Body": {
@@ -4721,11 +5629,12 @@ Children:
       }
      },
      "Write_String": "",
-     "WriteReq": false
+     "WriteReq": false,
+     "Zero": ""
     }
    }
   Children:
-  - Name: ActPos
+  - Name: Axis_Dint
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
@@ -4733,8 +5642,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:MainProgram_10Ms.p_SyringeAxis.ActPos"
-  - Name: CmdPos
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Axis_Dint"
+  - Name: Axis_String
     Type: RAEtherNetIPTag
     DataType: String
     Value: ""
@@ -4742,7 +5651,208 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:MainProgram_10Ms.p_SyringeAxis.CmdPos"
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Axis_String"
+  - Name: Busy
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Busy"
+  - Name: BusyPos
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.BusyPos"
+  - Name: ActPos_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.ActPos_Step_String"
+  - Name: CmdPos_mm
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.CmdPos_mm"
+  - Name: CmdPos_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.CmdPos_Step_Dint"
+  - Name: CmdPos_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.CmdPos_Step_String"
+  - Name: Get_Pos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Get_Pos"
+  - Name: Get_Pos_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Get_Pos_Delay.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Get_Pos_Delay.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Get_Pos_Delay.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Get_Pos_Delay.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Get_Pos_Delay.TT"
+  - Name: Get_Pos_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Get_Pos_String"
+  - Name: Go_CmdPos
+    Id: g=0f9e8311f5b4926788013bf881b0fd2f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Go_CmdPos"
+  - Name: Go_Home
+    Id: g=df04f8700d5cd70bee1ca82dce0a624d
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Go_Home"
+  - Name: HMI_PB
+    Type: udt_HMI_PB
+    DataType: udt_HMI_PB
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     }
+    Children:
+    - Name: ONS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.HMI_PB.ONS"
+    - Name: PB
+      Id: g=22d4b4203cfe9ce95227dcf80eb3d253
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.HMI_PB.PB"
+    - Name: PB_OS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.HMI_PB.PB_OS"
   - Name: Home
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4761,6 +5871,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_SyringeAxis.Home_String"
+  - Name: Idle
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Idle"
+  - Name: IdlePos
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.IdlePos"
   - Name: InPos
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4770,6 +5898,78 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_SyringeAxis.InPos"
+  - Name: Jog_Fwd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Jog_Fwd"
+  - Name: Jog_Fwd_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Jog_Fwd_String"
+  - Name: Jog_Rev
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Jog_Rev"
+  - Name: Jog_Rev_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Jog_Rev_String"
+  - Name: Jog_Value_mm
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Jog_Value_mm"
+  - Name: Jog_Value_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Jog_Value_Step_Dint"
+  - Name: Jog_Value_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Jog_Value_Step_String"
+  - Name: Manual_MovAbs
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Manual_MovAbs"
   - Name: MovAbs
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4788,6 +5988,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_SyringeAxis.MovAbs_String"
+  - Name: MoveReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.MoveReq"
+  - Name: Moving
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Moving"
   - Name: MovRel
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -4824,6 +6042,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_SyringeAxis.Reset"
+  - Name: Resloution
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Resloution"
   - Name: Return_String
     Type: RAEtherNetIPTag
     DataType: String
@@ -4833,6 +6060,106 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_SyringeAxis.Return_String"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Status"
+  - Name: Store_CmdPos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos"
+  - Name: Store_CmdPos_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Delay.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Delay.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Delay.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Delay.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Delay.TT"
+  - Name: String_Pos_Found
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.String_Pos_Found"
+  - Name: String_Pos_Length
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.String_Pos_Length"
   - Name: Write
     Type: SERIAL_PORT_CONTROL
     DataType: SERIAL_PORT_CONTROL
@@ -4840,7 +6167,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Id": "59b67a20c90e854f2826f743018793db",
        "Namespace": 7
       },
       "Body": {
@@ -4975,6 +6302,98 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_SyringeAxis.WriteReq"
+  - Name: Zero
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.Zero"
+  - Name: Store_CmdPos_Reset_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Reset_Delay.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Reset_Delay.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Reset_Delay.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Reset_Delay.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_SyringeAxis.Store_CmdPos_Reset_Delay.DN"
+  - Name: ActPos_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.ActPos_Step_Dint"
+  - Name: ActPos_mm
+    Id: g=ec4db7d528c71a7bbdcbf64e705f2418
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_SyringeAxis.ActPos_mm"
 - Name: p_DispenseTime
   Id: g=e9f1a392ae1d53ed7a48f49c32f2cdb9
   Type: RAEtherNetIPTag
@@ -4986,32 +6405,117 @@ Children:
     DataType: String
     Value: "Program:MainProgram_10Ms.p_DispenseTime"
 - Name: p_MirrorAxis
+  Id: g=e37a33b0c0a43a86149fca5c066add32
   Type: udt_Zaber_Axis
   DataType: udt_Zaber_Axis
   Value: 
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "d9ef41a38c334635aebe31b321b27601",
+     "Id": "4013e0f1ed85688e639a1453854e60b0",
      "Namespace": 7
     },
     "Body": {
-     "ActPos": 0,
-     "CmdPos": "",
+     "ActPos_mm": 0.0,
+     "ActPos_Step_Dint": 0,
+     "ActPos_Step_String": "",
+     "Axis_Dint": 0,
+     "Axis_String": "",
+     "Busy": "",
+     "BusyPos": 0,
+     "CmdPos_mm": 0.0,
+     "CmdPos_Step_Dint": 0,
+     "CmdPos_Step_String": "",
+     "Get_Pos": false,
+     "Get_Pos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Get_Pos_String": "",
+     "Go_CmdPos": false,
+     "Go_Home": false,
+     "HMI_PB": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     },
      "Home": false,
      "Home_String": "",
+     "Idle": "",
+     "IdlePos": 0,
      "InPos": false,
+     "Jog_Fwd": false,
+     "Jog_Fwd_String": "",
+     "Jog_Rev": false,
+     "Jog_Rev_String": "",
+     "Jog_Value_mm": 0.0,
+     "Jog_Value_Step_Dint": 0,
+     "Jog_Value_Step_String": "",
+     "Manual_MovAbs": false,
      "MovAbs": false,
      "MovAbs_String": "",
+     "MoveReq": false,
+     "Moving": false,
      "MovRel": false,
      "MovRel_String": "",
      "Read_String": "",
      "Reset": false,
+     "Reset_String": "",
+     "Resloution": 0.0,
      "Return_String": "",
+     "Status": "",
+     "Store_CmdPos": false,
+     "Store_CmdPos_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "Store_CmdPos_Reset_Delay": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     },
+     "String_Pos_Found": 0,
+     "String_Pos_Length": 0,
      "Write": {
       "TypeId": {
        "IdType": 2,
-       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Id": "59b67a20c90e854f2826f743018793db",
        "Namespace": 7
       },
       "Body": {
@@ -5029,11 +6533,12 @@ Children:
       }
      },
      "Write_String": "",
-     "WriteReq": false
+     "WriteReq": false,
+     "Zero": ""
     }
    }
   Children:
-  - Name: ActPos
+  - Name: Axis_Dint
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
@@ -5041,8 +6546,8 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:MainProgram_10Ms.p_MirrorAxis.ActPos"
-  - Name: CmdPos
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Axis_Dint"
+  - Name: Axis_String
     Type: RAEtherNetIPTag
     DataType: String
     Value: ""
@@ -5050,7 +6555,198 @@ Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Program:MainProgram_10Ms.p_MirrorAxis.CmdPos"
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Axis_String"
+  - Name: Busy
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Busy"
+  - Name: BusyPos
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.BusyPos"
+  - Name: ActPos_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.ActPos_Step_String"
+  - Name: CmdPos_mm
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.CmdPos_mm"
+  - Name: CmdPos_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.CmdPos_Step_Dint"
+  - Name: CmdPos_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.CmdPos_Step_String"
+  - Name: Get_Pos_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Get_Pos_Delay.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Get_Pos_Delay.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Get_Pos_Delay.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Get_Pos_Delay.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Get_Pos_Delay.TT"
+  - Name: Get_Pos_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Get_Pos_String"
+  - Name: Go_CmdPos
+    Id: g=6218bff8dd61be948de2495b66f48dc3
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Go_CmdPos"
+  - Name: Go_Home
+    Id: g=08c281621eaca4661d6b7f79602bba75
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Go_Home"
+  - Name: HMI_PB
+    Type: udt_HMI_PB
+    DataType: udt_HMI_PB
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
+      },
+      "Body": {
+       "ONS": 0,
+       "PB": 0,
+       "PB_OS": 0
+      }
+     }
+    Children:
+    - Name: ONS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.HMI_PB.ONS"
+    - Name: PB
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.HMI_PB.PB"
+    - Name: PB_OS
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.HMI_PB.PB_OS"
   - Name: Home
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5069,6 +6765,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_MirrorAxis.Home_String"
+  - Name: Idle
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Idle"
+  - Name: IdlePos
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.IdlePos"
   - Name: InPos
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5078,6 +6792,78 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_MirrorAxis.InPos"
+  - Name: Jog_Fwd
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Jog_Fwd"
+  - Name: Jog_Fwd_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Jog_Fwd_String"
+  - Name: Jog_Rev
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Jog_Rev"
+  - Name: Jog_Rev_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Jog_Rev_String"
+  - Name: Jog_Value_mm
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Jog_Value_mm"
+  - Name: Jog_Value_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Jog_Value_Step_Dint"
+  - Name: Jog_Value_Step_String
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Jog_Value_Step_String"
+  - Name: Manual_MovAbs
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Manual_MovAbs"
   - Name: MovAbs
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5096,6 +6882,24 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_MirrorAxis.MovAbs_String"
+  - Name: MoveReq
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.MoveReq"
+  - Name: Moving
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Moving"
   - Name: MovRel
     Type: RAEtherNetIPTag
     DataType: Boolean
@@ -5132,6 +6936,15 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_MirrorAxis.Reset"
+  - Name: Resloution
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Resloution"
   - Name: Return_String
     Type: RAEtherNetIPTag
     DataType: String
@@ -5141,6 +6954,106 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_MirrorAxis.Return_String"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Status"
+  - Name: Store_CmdPos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos"
+  - Name: Store_CmdPos_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Delay.ACC"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Delay.DN"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Delay.EN"
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Delay.PRE"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Delay.TT"
+  - Name: String_Pos_Found
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.String_Pos_Found"
+  - Name: String_Pos_Length
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.String_Pos_Length"
   - Name: Write
     Type: SERIAL_PORT_CONTROL
     DataType: SERIAL_PORT_CONTROL
@@ -5148,7 +7061,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Id": "59b67a20c90e854f2826f743018793db",
        "Namespace": 7
       },
       "Body": {
@@ -5283,6 +7196,107 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_MirrorAxis.WriteReq"
+  - Name: Get_Pos
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Get_Pos"
+  - Name: Zero
+    Type: RAEtherNetIPTag
+    DataType: String
+    Value: ""
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.Zero"
+  - Name: Store_CmdPos_Reset_Delay
+    Type: TIMER
+    DataType: TIMER
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      },
+      "Body": {
+       "ACC": 0,
+       "DN": false,
+       "EN": false,
+       "PRE": 0,
+       "TT": false
+      }
+     }
+    Children:
+    - Name: PRE
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Reset_Delay.PRE"
+    - Name: ACC
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Reset_Delay.ACC"
+    - Name: EN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Reset_Delay.EN"
+    - Name: TT
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Reset_Delay.TT"
+    - Name: DN
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_MirrorAxis.Store_CmdPos_Reset_Delay.DN"
+  - Name: ActPos_Step_Dint
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.ActPos_Step_Dint"
+  - Name: ActPos_mm
+    Id: g=790723fd3131bc7421ff7b1d910afa14
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_MirrorAxis.ActPos_mm"
 - Name: p_ALMD_03
   Type: ALARM_DIGITAL
   DataType: ALARM_DIGITAL
@@ -5290,7 +7304,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "4adefd05d57989678fa8531cab373fa6",
+     "Id": "a19b1b27690bcfce52a14e451a42b800",
      "Namespace": 7
     },
     "Body": {
@@ -5777,8 +7791,96 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_ALMD_03.UseProgTime"
+- Name: p_AOI_Cycle_Times
+  Type: AOI_Cycle_Times
+  DataType: AOI_Cycle_Times
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "fffdcdefac5db920a631192d198bff66",
+     "Namespace": 7
+    },
+    "Body": {
+     "Alarmed_IN": false,
+     "Avg_Cycle_Time": 0.0,
+     "Avg_PTP_Cycle_Time": 0.0,
+     "Current_Cycle": 0.0,
+     "Cycle_Time": 0.0,
+     "Data_Reset_IN": false,
+     "Downtime_IN": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "In_Process_IN": false,
+     "Part_Part_Cycle_Time": 0.0,
+     "Start_Timing_IN": false,
+     "Update_IN": false,
+     "Uptime_IN": false,
+     "Waiting_IN": false
+    }
+   }
+  Children:
+  - Name: Avg_Cycle_Time
+    Id: g=ee1d18d389c786387b99ff26e8c0c059
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_AOI_Cycle_Times.Avg_Cycle_Time"
+  - Name: Cycle_Time
+    Id: g=96ffebd79b864886962cf6b94891a9d1
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_AOI_Cycle_Times.Cycle_Time"
+  - Name: Current_Cycle
+    Id: g=d4896c66a544eb0fbbc3666d0daf5aed
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Value: 0.0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_AOI_Cycle_Times.Current_Cycle"
+- Name: p_Data_Reset
+  Id: g=140c250ffff5e8bc7b53c67740b0a378
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_Data_Reset"
+- Name: p_Downtime
+  Id: g=fcd5068af82e63cfcad231b014e0a832
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_Downtime"
+- Name: p_EstopMonitor_IN
+  Id: g=00e15e0b404f0f93151c8388700dda32
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_EstopMonitor_IN"
 - Name: p_HMI_MachineStatus
-  Id: g=9ffb57c36d5801bd58568c113cda126a
   Type: RAEtherNetIPTag
   DataType: Int32
   Value: 0
@@ -5794,7 +7896,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "9a81cd8f6e8fc898618d325fa6a5511d",
+     "Id": "7d756617b0f3f775743a3311ec3d6627",
      "Namespace": 7
     },
     "Body": {
@@ -5802,7 +7904,7 @@ Children:
      "Delay_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -5818,7 +7920,7 @@ Children:
      "On_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -5833,7 +7935,7 @@ Children:
      "Ramp_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -5865,7 +7967,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -5923,6 +8025,7 @@ Children:
         DataType: String
         Value: "Program:MainProgram_10Ms.p_LED_01.Delay_Timer.TT"
   - Name: Max_Voltage
+    Id: g=81650bad58cf23952584610a8187e1ed
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -5948,7 +8051,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6022,7 +8125,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6096,7 +8199,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "9a81cd8f6e8fc898618d325fa6a5511d",
+     "Id": "7d756617b0f3f775743a3311ec3d6627",
      "Namespace": 7
     },
     "Body": {
@@ -6104,7 +8207,7 @@ Children:
      "Delay_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6120,7 +8223,7 @@ Children:
      "On_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6135,7 +8238,7 @@ Children:
      "Ramp_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6166,7 +8269,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6224,6 +8327,7 @@ Children:
         DataType: String
         Value: "Program:MainProgram_10Ms.p_LED_02.Delay_Timer.TT"
   - Name: Max_Voltage
+    Id: g=dca32c68ee156604e809add976d0772c
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -6248,7 +8352,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6321,7 +8425,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6395,7 +8499,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "9a81cd8f6e8fc898618d325fa6a5511d",
+     "Id": "7d756617b0f3f775743a3311ec3d6627",
      "Namespace": 7
     },
     "Body": {
@@ -6403,7 +8507,7 @@ Children:
      "Delay_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6419,7 +8523,7 @@ Children:
      "On_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6434,7 +8538,7 @@ Children:
      "Ramp_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6465,7 +8569,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6523,6 +8627,7 @@ Children:
         DataType: String
         Value: "Program:MainProgram_10Ms.p_LED_03.Delay_Timer.TT"
   - Name: Max_Voltage
+    Id: g=878a2b4b3dd8b1eb67541947ef55e179
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -6547,7 +8652,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6620,7 +8725,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6694,7 +8799,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "9a81cd8f6e8fc898618d325fa6a5511d",
+     "Id": "7d756617b0f3f775743a3311ec3d6627",
      "Namespace": 7
     },
     "Body": {
@@ -6702,7 +8807,7 @@ Children:
      "Delay_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6718,7 +8823,7 @@ Children:
      "On_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6733,7 +8838,7 @@ Children:
      "Ramp_Timer": {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6764,7 +8869,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6822,6 +8927,7 @@ Children:
         DataType: String
         Value: "Program:MainProgram_10Ms.p_LED_04.Delay_Timer.TT"
   - Name: Max_Voltage
+    Id: g=c6bc4e0cba54b2eadafbcfc0697ce3ae
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -6846,7 +8952,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6919,7 +9025,7 @@ Children:
      {
       "TypeId": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "Body": {
@@ -6986,3 +9092,2036 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Program:MainProgram_10Ms.p_LED_04.Voltage_Out"
+- Name: p_Cassette_Data
+  Id: g=594cbae952635e10f9c7904bba5a4b5d
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_Cassette_Data"
+- Name: p_HMI_IO_Display
+  Type: udt_HMI_IO_Desc
+  DataType: udt_HMI_IO_Desc
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "26d3faa45cecc9c05f1d85fa4219c518",
+     "Namespace": 7
+    },
+    "Body": {
+     "Decrement_Event": false,
+     "Decrement_OS": false,
+     "Decrement_Page": false,
+     "Increment_Event": false,
+     "Increment_OS": false,
+     "Increment_Page": false,
+     "Index": 0,
+     "IO_Desc": [{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      },{
+       "TypeId": {
+        "IdType": 2,
+        "Id": "5732896cf70ad2cddb2d038c289e5925",
+        "Namespace": 7
+       },
+       "Body": {
+        "Address": "",
+        "Description": ""
+       }
+      }],
+     "Max_Index": 0,
+     "Status": [0,0],
+     "Two_Column_Display": false
+    }
+   }
+  Children:
+  - Name: Decrement_Event
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Decrement_Event"
+  - Name: Decrement_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Decrement_OS"
+  - Name: Decrement_Page
+    Id: g=000a56e0662629a652deaba2ad864572
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Decrement_Page"
+  - Name: Increment_Event
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Increment_Event"
+  - Name: Increment_OS
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Increment_OS"
+  - Name: Increment_Page
+    Id: g=77c8852c747f7489e6a1682784f76d9f
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Increment_Page"
+  - Name: Index
+    Id: g=fc590aff442aeab9be2b9550f50a805c
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Index"
+  - Name: IO_Desc
+    Type: udt_IO_Desc
+    DataType: udt_IO_Desc
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Value: [{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}},{"TypeId":{"IdType":2,"Id":"5732896cf70ad2cddb2d038c289e5925","Namespace":7},"Body":{"Address":"","Description":""}}]
+    Children:
+    - Name: 0
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Id: g=b7808878d42593f581f99435542c584a
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[0].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[0].Description"
+    - Name: 1
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[1].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[1].Description"
+    - Name: 2
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[2].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[2].Description"
+    - Name: 3
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[3].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[3].Description"
+    - Name: 4
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[4].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[4].Description"
+    - Name: 5
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[5].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[5].Description"
+    - Name: 6
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[6].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[6].Description"
+    - Name: 7
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[7].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[7].Description"
+    - Name: 8
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[8].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[8].Description"
+    - Name: 9
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[9].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[9].Description"
+    - Name: 10
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[10].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[10].Description"
+    - Name: 11
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[11].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[11].Description"
+    - Name: 12
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[12].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[12].Description"
+    - Name: 13
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[13].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[13].Description"
+    - Name: 14
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[14].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[14].Description"
+    - Name: 15
+      Type: udt_IO_Desc
+      DataType: udt_IO_Desc
+      Value: 
+       {
+        "TypeId": {
+         "IdType": 2,
+         "Id": "5732896cf70ad2cddb2d038c289e5925",
+         "Namespace": 7
+        },
+        "Body": {
+         "Address": "",
+         "Description": ""
+        }
+       }
+      Children:
+      - Name: Address
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[15].Address"
+      - Name: Description
+        Type: RAEtherNetIPTag
+        DataType: String
+        Value: ""
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.IO_Desc[15].Description"
+    - Name: Address
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Address"
+  - Name: Max_Index
+    Id: g=72416061d6c5065b7f1573295daef8f0
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Max_Index"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    ValueRank: OneDimension
+    ArrayDimensions: [2]
+    Value: [0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Status"
+  - Name: Two_Column_Display
+    Id: g=767aa502b8075656ef53549644916698
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_IO_Display.Two_Column_Display"
+- Name: p_HMI_Message_Active
+  Type: udt_HMI_Message_Display
+  DataType: udt_HMI_Message_Display
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "31bebfe5ae587d274113341f70389b20",
+     "Namespace": 7
+    },
+    "Body": {
+     "Index": 0,
+     "Message": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "7833a88226f73264b2079be330d9ddbb",
+       "Namespace": 7
+      },
+      "Body": {
+       "Background": 0,
+       "Message": ""
+      }
+     }
+    }
+   }
+  Children:
+  - Name: Index
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_Message_Active.Index"
+  - Name: Message
+    Type: udt_HMI_Message
+    DataType: udt_HMI_Message
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "7833a88226f73264b2079be330d9ddbb",
+       "Namespace": 7
+      },
+      "Body": {
+       "Background": 0,
+       "Message": ""
+      }
+     }
+    Children:
+    - Name: Background
+      Id: g=0a78875c8d2aeb94a675c326a1ec77a6
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_HMI_Message_Active.Message.Background"
+    - Name: Message
+      Id: g=944c0faa30ccb0975aeabadff151c29c
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_HMI_Message_Active.Message.Message"
+- Name: p_HMI_Message_Sequence_Active
+  Type: udt_HMI_Message_Display
+  DataType: udt_HMI_Message_Display
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "31bebfe5ae587d274113341f70389b20",
+     "Namespace": 7
+    },
+    "Body": {
+     "Index": 0,
+     "Message": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "7833a88226f73264b2079be330d9ddbb",
+       "Namespace": 7
+      },
+      "Body": {
+       "Background": 0,
+       "Message": ""
+      }
+     }
+    }
+   }
+  Children:
+  - Name: Index
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_HMI_Message_Sequence_Active.Index"
+  - Name: Message
+    Type: udt_HMI_Message
+    DataType: udt_HMI_Message
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "7833a88226f73264b2079be330d9ddbb",
+       "Namespace": 7
+      },
+      "Body": {
+       "Background": 0,
+       "Message": ""
+      }
+     }
+    Children:
+    - Name: Background
+      Id: g=c6edc35438a275a01d5b7f76deac5a8a
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_HMI_Message_Sequence_Active.Message.Background"
+    - Name: Message
+      Id: g=28cfbbaf342e8ce31f41e83da95a11bc
+      Type: RAEtherNetIPTag
+      DataType: String
+      Value: ""
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Program:MainProgram_10Ms.p_HMI_Message_Sequence_Active.Message.Message"
+- Name: p_LifeTime_Part_Counter
+  Id: g=268b2d28f163f439966a147764009baa
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_LifeTime_Part_Counter"
+- Name: p_Part_Counter
+  Id: g=cb0134c43203431cb81fcdac9d680d2e
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_Part_Counter"
+- Name: p_Uptime
+  Id: g=eb5cb8f912e223d0249489c76ec27231
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_Uptime"
+- Name: p_Waiting_Time
+  Id: g=af992e5a4176f7624a9e07ad800ff0be
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_Waiting_Time"
+- Name: p_test_Mode
+  Id: g=6e4625b299de96e08242849b2acfce8f
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:MainProgram_10Ms.p_test_Mode"
+- Name: p_ALMD_04
+  Type: ALARM_DIGITAL
+  DataType: ALARM_DIGITAL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "a19b1b27690bcfce52a14e451a42b800",
+     "Namespace": 7
+    },
+    "Body": {
+     "Acked": false,
+     "AckRequired": false,
+     "AckTime": 0,
+     "AlarmCount": 0,
+     "AlarmCountReset": false,
+     "AlarmCountResetTime": 0,
+     "Commissioned": false,
+     "Condition": false,
+     "Disabled": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "In": false,
+     "InAlarm": false,
+     "InAlarmTime": 0,
+     "InAlarmUnack": false,
+     "InFault": false,
+     "InFaulted": false,
+     "InstructFault": false,
+     "Latched": false,
+     "MaxShelveDuration": 0,
+     "MinDurationACC": 0,
+     "MinDurationPRE": 0,
+     "OperAck": false,
+     "OperDisable": false,
+     "OperEnable": false,
+     "OperReset": false,
+     "OperShelve": false,
+     "OperSuppress": false,
+     "OperUnshelve": false,
+     "OperUnsuppress": false,
+     "ProgAck": false,
+     "ProgDisable": false,
+     "ProgEnable": false,
+     "ProgReset": false,
+     "ProgSuppress": false,
+     "ProgTime": 0,
+     "ProgUnshelve": false,
+     "ProgUnsuppress": false,
+     "RetToNormalTime": 0,
+     "Severity": 0,
+     "SeverityInv": false,
+     "Shelved": false,
+     "ShelveDuration": 0,
+     "ShelveTime": 0,
+     "Status": 0,
+     "Suppressed": false,
+     "UnshelveTime": 0,
+     "UseProgTime": false
+    }
+   }
+  Children:
+  - Name: Acked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Acked"
+  - Name: AckRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.AckRequired"
+  - Name: AckTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.AckTime"
+  - Name: AlarmCount
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.AlarmCount"
+  - Name: AlarmCountReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.AlarmCountReset"
+  - Name: AlarmCountResetTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.AlarmCountResetTime"
+  - Name: Commissioned
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Commissioned"
+  - Name: Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Condition"
+  - Name: Disabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Disabled"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.In"
+  - Name: InAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.InAlarm"
+  - Name: InAlarmTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.InAlarmTime"
+  - Name: InAlarmUnack
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.InAlarmUnack"
+  - Name: InFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.InFault"
+  - Name: InFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.InFaulted"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.InstructFault"
+  - Name: Latched
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Latched"
+  - Name: MaxShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.MaxShelveDuration"
+  - Name: MinDurationACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.MinDurationACC"
+  - Name: MinDurationPRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.MinDurationPRE"
+  - Name: OperAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperAck"
+  - Name: OperDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperDisable"
+  - Name: OperEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperEnable"
+  - Name: OperReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperReset"
+  - Name: OperShelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperShelve"
+  - Name: OperSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperSuppress"
+  - Name: OperUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperUnshelve"
+  - Name: OperUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.OperUnsuppress"
+  - Name: ProgAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgAck"
+  - Name: ProgDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgDisable"
+  - Name: ProgEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgEnable"
+  - Name: ProgReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgReset"
+  - Name: ProgSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgSuppress"
+  - Name: ProgTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgTime"
+  - Name: ProgUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgUnshelve"
+  - Name: ProgUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ProgUnsuppress"
+  - Name: RetToNormalTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.RetToNormalTime"
+  - Name: Severity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Severity"
+  - Name: SeverityInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.SeverityInv"
+  - Name: Shelved
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Shelved"
+  - Name: ShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ShelveDuration"
+  - Name: ShelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.ShelveTime"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Status"
+  - Name: Suppressed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.Suppressed"
+  - Name: UnshelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.UnshelveTime"
+  - Name: UseProgTime
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_04.UseProgTime"
+- Name: p_ALMD_05
+  Type: ALARM_DIGITAL
+  DataType: ALARM_DIGITAL
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "a19b1b27690bcfce52a14e451a42b800",
+     "Namespace": 7
+    },
+    "Body": {
+     "Acked": false,
+     "AckRequired": false,
+     "AckTime": 0,
+     "AlarmCount": 0,
+     "AlarmCountReset": false,
+     "AlarmCountResetTime": 0,
+     "Commissioned": false,
+     "Condition": false,
+     "Disabled": false,
+     "EnableIn": false,
+     "EnableOut": false,
+     "In": false,
+     "InAlarm": false,
+     "InAlarmTime": 0,
+     "InAlarmUnack": false,
+     "InFault": false,
+     "InFaulted": false,
+     "InstructFault": false,
+     "Latched": false,
+     "MaxShelveDuration": 0,
+     "MinDurationACC": 0,
+     "MinDurationPRE": 0,
+     "OperAck": false,
+     "OperDisable": false,
+     "OperEnable": false,
+     "OperReset": false,
+     "OperShelve": false,
+     "OperSuppress": false,
+     "OperUnshelve": false,
+     "OperUnsuppress": false,
+     "ProgAck": false,
+     "ProgDisable": false,
+     "ProgEnable": false,
+     "ProgReset": false,
+     "ProgSuppress": false,
+     "ProgTime": 0,
+     "ProgUnshelve": false,
+     "ProgUnsuppress": false,
+     "RetToNormalTime": 0,
+     "Severity": 0,
+     "SeverityInv": false,
+     "Shelved": false,
+     "ShelveDuration": 0,
+     "ShelveTime": 0,
+     "Status": 0,
+     "Suppressed": false,
+     "UnshelveTime": 0,
+     "UseProgTime": false
+    }
+   }
+  Children:
+  - Name: Acked
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Acked"
+  - Name: AckRequired
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.AckRequired"
+  - Name: AckTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.AckTime"
+  - Name: AlarmCount
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.AlarmCount"
+  - Name: AlarmCountReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.AlarmCountReset"
+  - Name: AlarmCountResetTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.AlarmCountResetTime"
+  - Name: Commissioned
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Commissioned"
+  - Name: Condition
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Condition"
+  - Name: Disabled
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Disabled"
+  - Name: EnableIn
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.EnableIn"
+  - Name: EnableOut
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.EnableOut"
+  - Name: In
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.In"
+  - Name: InAlarm
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.InAlarm"
+  - Name: InAlarmTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.InAlarmTime"
+  - Name: InAlarmUnack
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.InAlarmUnack"
+  - Name: InFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.InFault"
+  - Name: InFaulted
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.InFaulted"
+  - Name: InstructFault
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.InstructFault"
+  - Name: Latched
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Latched"
+  - Name: MaxShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.MaxShelveDuration"
+  - Name: MinDurationACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.MinDurationACC"
+  - Name: MinDurationPRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.MinDurationPRE"
+  - Name: OperAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperAck"
+  - Name: OperDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperDisable"
+  - Name: OperEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperEnable"
+  - Name: OperReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperReset"
+  - Name: OperShelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperShelve"
+  - Name: OperSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperSuppress"
+  - Name: OperUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperUnshelve"
+  - Name: OperUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.OperUnsuppress"
+  - Name: ProgAck
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgAck"
+  - Name: ProgDisable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgDisable"
+  - Name: ProgEnable
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgEnable"
+  - Name: ProgReset
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgReset"
+  - Name: ProgSuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgSuppress"
+  - Name: ProgTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgTime"
+  - Name: ProgUnshelve
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgUnshelve"
+  - Name: ProgUnsuppress
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ProgUnsuppress"
+  - Name: RetToNormalTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.RetToNormalTime"
+  - Name: Severity
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Severity"
+  - Name: SeverityInv
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.SeverityInv"
+  - Name: Shelved
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Shelved"
+  - Name: ShelveDuration
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ShelveDuration"
+  - Name: ShelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.ShelveTime"
+  - Name: Status
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Status"
+  - Name: Suppressed
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.Suppressed"
+  - Name: UnshelveTime
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.UnshelveTime"
+  - Name: UseProgTime
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:MainProgram_10Ms.p_ALMD_05.UseProgTime"

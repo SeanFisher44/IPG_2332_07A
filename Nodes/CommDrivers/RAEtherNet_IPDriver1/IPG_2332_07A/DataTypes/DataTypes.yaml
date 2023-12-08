@@ -2,26 +2,135 @@ Name: DataTypes
 Type: FolderType
 Children:
 - Class: DataType
+  Name: 'CC:InSight11_DINT8:I:0'
+  Id: g=af3c7434a000a8b2d001a5f350849f06
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "CC:InSight11_DINT8:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "af3c7434a000a8b2d001a5f350849f06",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "InspectionResults",
+      "DataType": {
+       "Id": 6
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [8]
+     },{
+      "Name": "Status",
+      "DataType": {
+       "IdType": 2,
+       "Id": "9e1ad183b5a7cf003a4d19e9e0fb6527",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"CC:InSight11_DINT8:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: udt_Zaber_Axis
-  Id: g=d9ef41a38c334635aebe31b321b27601
+  Id: g=4013e0f1ed85688e639a1453854e60b0
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "udt_Zaber_Axis",
     "DataType": {
      "IdType": 2,
-     "Id": "d9ef41a38c334635aebe31b321b27601",
+     "Id": "4013e0f1ed85688e639a1453854e60b0",
      "Namespace": 7
     },
     "Fields": [{
-      "Name": "ActPos",
+      "Name": "ActPos_mm",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "ActPos_Step_Dint",
       "DataType": {
        "Id": 6
       }
      },{
-      "Name": "CmdPos",
+      "Name": "ActPos_Step_String",
       "DataType": {
        "Id": 12
+      }
+     },{
+      "Name": "Axis_Dint",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Axis_String",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Busy",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "BusyPos",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CmdPos_mm",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "CmdPos_Step_Dint",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "CmdPos_Step_String",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Get_Pos",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Get_Pos_Delay",
+      "DataType": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Get_Pos_String",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Go_CmdPos",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Go_Home",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HMI_PB",
+      "DataType": {
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
       }
      },{
       "Name": "Home",
@@ -34,7 +143,57 @@ Children:
        "Id": 12
       }
      },{
+      "Name": "Idle",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "IdlePos",
+      "DataType": {
+       "Id": 6
+      }
+     },{
       "Name": "InPos",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Jog_Fwd",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Jog_Fwd_String",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Jog_Rev",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Jog_Rev_String",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Jog_Value_mm",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Jog_Value_Step_Dint",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Jog_Value_Step_String",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Manual_MovAbs",
       "DataType": {
        "Id": 1
       }
@@ -47,6 +206,16 @@ Children:
       "Name": "MovAbs_String",
       "DataType": {
        "Id": 12
+      }
+     },{
+      "Name": "MoveReq",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Moving",
+      "DataType": {
+       "Id": 1
       }
      },{
       "Name": "MovRel",
@@ -69,15 +238,59 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Reset_String",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Resloution",
+      "DataType": {
+       "Id": 10
+      }
+     },{
       "Name": "Return_String",
       "DataType": {
        "Id": 12
       }
      },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Store_CmdPos",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Store_CmdPos_Delay",
+      "DataType": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      }
+     },{
+      "Name": "Store_CmdPos_Reset_Delay",
+      "DataType": {
+       "IdType": 2,
+       "Id": "65326003791a76c033709431e7f7eb77",
+       "Namespace": 7
+      }
+     },{
+      "Name": "String_Pos_Found",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "String_Pos_Length",
+      "DataType": {
+       "Id": 6
+      }
+     },{
       "Name": "Write",
       "DataType": {
        "IdType": 2,
-       "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+       "Id": "59b67a20c90e854f2826f743018793db",
        "Namespace": 7
       }
      },{
@@ -90,6 +303,11 @@ Children:
       "DataType": {
        "Id": 1
       }
+     },{
+      "Name": "Zero",
+      "DataType": {
+       "Id": 12
+      }
      }]
    }
   DisplayName: {"LocaleId":"","Text":"udt_Zaber_Axis"}
@@ -100,15 +318,227 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: udt_HMI_Message
+  Id: g=7833a88226f73264b2079be330d9ddbb
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "udt_HMI_Message",
+    "DataType": {
+     "IdType": 2,
+     "Id": "7833a88226f73264b2079be330d9ddbb",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Background",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Message",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"udt_HMI_Message"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: 'CC:InSight11_Status:I:0'
+  Id: g=9e1ad183b5a7cf003a4d19e9e0fb6527
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "CC:InSight11_Status:I:0",
+    "DataType": {
+     "IdType": 2,
+     "Id": "9e1ad183b5a7cf003a4d19e9e0fb6527",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "AcquisitionID",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "CommandCompleted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommandExecuting",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CommandFailed",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "CurrentJobID",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Error",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ErrorCode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "ExposureComplete",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InspectionCompleted",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "InspectionID",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "InspectionResultCode",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "JobPass",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "MissedAcq",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OfflineReason0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OfflineReason1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "OfflineReason2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Online",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResultsBufferOverrun",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ResultsValid",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SetUserDataAck",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck0",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck3",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck4",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck5",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck6",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SoftEventAck7",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "SystemBusy",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TestRunReady",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TriggerAck",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "TriggerReady",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"CC:InSight11_Status:I:0"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: udt_Controller_Status
-  Id: g=c0e428e1bb806ee095fbb0df087fb35e
+  Id: g=f2889f2b07a639346b81e50680c6a7c3
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "udt_Controller_Status",
     "DataType": {
      "IdType": 2,
-     "Id": "c0e428e1bb806ee095fbb0df087fb35e",
+     "Id": "f2889f2b07a639346b81e50680c6a7c3",
      "Namespace": 7
     },
     "Fields": [{
@@ -177,14 +607,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:Embedded_DiscreteIO:O:0'
-  Id: g=4f35cc9ef4661bfea736291335f8137c
+  Id: g=5f12c4a69428f47b8545ff8c78114319
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:Embedded_DiscreteIO:O:0",
     "DataType": {
      "IdType": 2,
-     "Id": "4f35cc9ef4661bfea736291335f8137c",
+     "Id": "5f12c4a69428f47b8545ff8c78114319",
      "Namespace": 7
     },
     "Fields": [{
@@ -203,14 +633,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:Embedded_DiscreteIO:I:0'
-  Id: g=6ec772a7fb3871cad0bae3a2fba1bc10
+  Id: g=af38cbbabfb7f4899219621b95b7fef5
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:Embedded_DiscreteIO:I:0",
     "DataType": {
      "IdType": 2,
-     "Id": "6ec772a7fb3871cad0bae3a2fba1bc10",
+     "Id": "af38cbbabfb7f4899219621b95b7fef5",
      "Namespace": 7
     },
     "Fields": [{
@@ -234,14 +664,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: 'AB:1734_OE2:O:0'
-  Id: g=3c7a1d9a2b63c52b851593931813856d
+  Id: g=328065714872142df2643f6a1bff67e4
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:1734_OE2:O:0",
     "DataType": {
      "IdType": 2,
-     "Id": "3c7a1d9a2b63c52b851593931813856d",
+     "Id": "328065714872142df2643f6a1bff67e4",
      "Namespace": 7
     },
     "Fields": [{
@@ -265,14 +695,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: udt_Station_Sequence
-  Id: g=f4c6f69f27cb8461a156a05637776e4d
+  Id: g=e6ae2eb3cccd734ffbd22c8099e77dbe
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "udt_Station_Sequence",
     "DataType": {
      "IdType": 2,
-     "Id": "f4c6f69f27cb8461a156a05637776e4d",
+     "Id": "e6ae2eb3cccd734ffbd22c8099e77dbe",
      "Namespace": 7
     },
     "Fields": [{
@@ -316,6 +746,11 @@ Children:
        "Id": 1
       }
      },{
+      "Name": "Result",
+      "DataType": {
+       "Id": 1
+      }
+     },{
       "Name": "StepOS",
       "DataType": {
        "Id": 6
@@ -334,7 +769,7 @@ Children:
       "Name": "Timer",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       },
       "ValueRank": "OneDimension",
@@ -349,15 +784,111 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: AOI_Cycle_Times
+  Id: g=fffdcdefac5db920a631192d198bff66
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "AOI_Cycle_Times",
+    "DataType": {
+     "IdType": 2,
+     "Id": "fffdcdefac5db920a631192d198bff66",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Alarmed_IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Avg_Cycle_Time",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Avg_PTP_Cycle_Time",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Current_Cycle",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Cycle_Time",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Data_Reset_IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Downtime_IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableIn",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EnableOut",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "In_Process_IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Part_Part_Cycle_Time",
+      "DataType": {
+       "Id": 10
+      }
+     },{
+      "Name": "Start_Timing_IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Update_IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Uptime_IN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Waiting_IN",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"AOI_Cycle_Times"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: ns=7;DateTime
-  Id: g=28ff9f6d7b6ea60806f253ad480c5630
+  Id: g=abacaaa4519d0e7ce0241c7d550d75a2
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "DateTime",
     "DataType": {
      "IdType": 2,
-     "Id": "28ff9f6d7b6ea60806f253ad480c5630",
+     "Id": "abacaaa4519d0e7ce0241c7d550d75a2",
      "Namespace": 7
     },
     "Fields": [{
@@ -406,14 +937,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: udt_LED
-  Id: g=9a81cd8f6e8fc898618d325fa6a5511d
+  Id: g=7d756617b0f3f775743a3311ec3d6627
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "udt_LED",
     "DataType": {
      "IdType": 2,
-     "Id": "9a81cd8f6e8fc898618d325fa6a5511d",
+     "Id": "7d756617b0f3f775743a3311ec3d6627",
      "Namespace": 7
     },
     "Fields": [{
@@ -425,7 +956,7 @@ Children:
       "Name": "Delay_Timer",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -442,7 +973,7 @@ Children:
       "Name": "On_Timer",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -454,7 +985,7 @@ Children:
       "Name": "Ramp_Timer",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -472,15 +1003,97 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
+  Name: udt_HMI_IO_Desc
+  Id: g=26d3faa45cecc9c05f1d85fa4219c518
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "udt_HMI_IO_Desc",
+    "DataType": {
+     "IdType": 2,
+     "Id": "26d3faa45cecc9c05f1d85fa4219c518",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Decrement_Event",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Decrement_OS",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Decrement_Page",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Increment_Event",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Increment_OS",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Increment_Page",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Index",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "IO_Desc",
+      "DataType": {
+       "IdType": 2,
+       "Id": "5732896cf70ad2cddb2d038c289e5925",
+       "Namespace": 7
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [16]
+     },{
+      "Name": "Max_Index",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Status",
+      "DataType": {
+       "Id": 4
+      },
+      "ValueRank": "OneDimension",
+      "ArrayDimensions": [2]
+     },{
+      "Name": "Two_Column_Display",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"udt_HMI_IO_Desc"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
   Name: 'AB:Embedded_DiscreteIO:C:0'
-  Id: g=bf9abf2e214115bb1dbe4162bbd25de0
+  Id: g=03973d913619571388a331847367a620
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "AB:Embedded_DiscreteIO:C:0",
     "DataType": {
      "IdType": 2,
-     "Id": "bf9abf2e214115bb1dbe4162bbd25de0",
+     "Id": "03973d913619571388a331847367a620",
      "Namespace": 7
     },
     "Fields": [{
@@ -683,15 +1296,46 @@ Children:
     DisplayName: {"LocaleId":"","Text":"Default Binary"}
     ReferenceType: HasEncoding
 - Class: DataType
-  Name: udt_Machine_Control
-  Id: g=6a2a48925c0bed0566c55dc320ae44f0
+  Name: udt_IO_Desc
+  Id: g=5732896cf70ad2cddb2d038c289e5925
   Supertype: Structure
   StructDefinition: 
    {
-    "Name": "udt_Machine_Control",
+    "Name": "udt_IO_Desc",
     "DataType": {
      "IdType": 2,
-     "Id": "6a2a48925c0bed0566c55dc320ae44f0",
+     "Id": "5732896cf70ad2cddb2d038c289e5925",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Address",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Description",
+      "DataType": {
+       "Id": 12
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"udt_IO_Desc"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: udt_Machine_Control_V2
+  Id: g=e374606959392eeebe6fe9886479c0e2
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "udt_Machine_Control_V2",
+    "DataType": {
+     "IdType": 2,
+     "Id": "e374606959392eeebe6fe9886479c0e2",
      "Namespace": 7
     },
     "Fields": [{
@@ -706,6 +1350,11 @@ Children:
       },
       "ValueRank": "OneDimension",
       "ArrayDimensions": [32]
+     },{
+      "Name": "Alarm_Silence",
+      "DataType": {
+       "Id": 1
+      }
      },{
       "Name": "Auto_Mode",
       "DataType": {
@@ -730,7 +1379,7 @@ Children:
       "Name": "Conveyor_Start_Dly",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -779,7 +1428,7 @@ Children:
       "Name": "Cycle_Time",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -791,7 +1440,7 @@ Children:
       "Name": "Guard_Close_Delay",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -803,35 +1452,27 @@ Children:
       "Name": "Guard_Unlock_Dly",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
       "Name": "Guard_Unlock_Timer",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
-      "Name": "HMI_Mode_Color",
+      "Name": "HMI_Mode_Display",
       "DataType": {
-       "Id": 12
-      }
-     },{
-      "Name": "HMI_Mode_Text",
-      "DataType": {
-       "Id": 12
+       "Id": 6
       }
      },{
       "Name": "HMI_PB",
       "DataType": {
-       "Id": 6
-      }
-     },{
-      "Name": "HMI_PB_OS",
-      "DataType": {
-       "Id": 6
+       "IdType": 2,
+       "Id": "f7708b8764ec95346d15e416438b43df",
+       "Namespace": 7
       }
      },{
       "Name": "Master_Reset",
@@ -857,7 +1498,7 @@ Children:
       "Name": "Pwr_On_Dly",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -874,7 +1515,7 @@ Children:
       "Name": "Reset_Cnt",
       "DataType": {
        "IdType": 2,
-       "Id": "e80ec12f06837aa51ebd4aabd3bf360d",
+       "Id": "d976800aba97067afdb6fc1bdb7f76ad",
        "Namespace": 7
       }
      },{
@@ -886,7 +1527,7 @@ Children:
       "Name": "Reset_Duration",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
@@ -903,11 +1544,26 @@ Children:
       "Name": "Safety_Ok_Dly",
       "DataType": {
        "IdType": 2,
-       "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+       "Id": "65326003791a76c033709431e7f7eb77",
        "Namespace": 7
       }
      },{
       "Name": "Sequence_Reset",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Single_Cycle",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Single_Cycle_Off_OS",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Single_Cycle_On_OS",
       "DataType": {
        "Id": 1
       }
@@ -938,7 +1594,40 @@ Children:
       }
      }]
    }
-  DisplayName: {"LocaleId":"","Text":"udt_Machine_Control"}
+  DisplayName: {"LocaleId":"","Text":"udt_Machine_Control_V2"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: udt_HMI_Message_Display
+  Id: g=31bebfe5ae587d274113341f70389b20
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "udt_HMI_Message_Display",
+    "DataType": {
+     "IdType": 2,
+     "Id": "31bebfe5ae587d274113341f70389b20",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "Index",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Message",
+      "DataType": {
+       "IdType": 2,
+       "Id": "7833a88226f73264b2079be330d9ddbb",
+       "Namespace": 7
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"udt_HMI_Message_Display"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType
@@ -947,14 +1636,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: TIMER
-  Id: g=ed53d0a86d5e71a0d55690c30dee1e78
+  Id: g=65326003791a76c033709431e7f7eb77
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "TIMER",
     "DataType": {
      "IdType": 2,
-     "Id": "ed53d0a86d5e71a0d55690c30dee1e78",
+     "Id": "65326003791a76c033709431e7f7eb77",
      "Namespace": 7
     },
     "Fields": [{
@@ -993,14 +1682,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: COUNTER
-  Id: g=e80ec12f06837aa51ebd4aabd3bf360d
+  Id: g=d976800aba97067afdb6fc1bdb7f76ad
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "COUNTER",
     "DataType": {
      "IdType": 2,
-     "Id": "e80ec12f06837aa51ebd4aabd3bf360d",
+     "Id": "d976800aba97067afdb6fc1bdb7f76ad",
      "Namespace": 7
     },
     "Fields": [{
@@ -1049,14 +1738,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: SERIAL_PORT_CONTROL
-  Id: g=31c92c6d07bdc66df57c6b628e0eaead
+  Id: g=59b67a20c90e854f2826f743018793db
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "SERIAL_PORT_CONTROL",
     "DataType": {
      "IdType": 2,
-     "Id": "31c92c6d07bdc66df57c6b628e0eaead",
+     "Id": "59b67a20c90e854f2826f743018793db",
      "Namespace": 7
     },
     "Fields": [{
@@ -1125,14 +1814,14 @@ Children:
     ReferenceType: HasEncoding
 - Class: DataType
   Name: ALARM_DIGITAL
-  Id: g=4adefd05d57989678fa8531cab373fa6
+  Id: g=a19b1b27690bcfce52a14e451a42b800
   Supertype: Structure
   StructDefinition: 
    {
     "Name": "ALARM_DIGITAL",
     "DataType": {
      "IdType": 2,
-     "Id": "4adefd05d57989678fa8531cab373fa6",
+     "Id": "a19b1b27690bcfce52a14e451a42b800",
      "Namespace": 7
     },
     "Fields": [{
@@ -1378,6 +2067,42 @@ Children:
      }]
    }
   DisplayName: {"LocaleId":"","Text":"ALARM_DIGITAL"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: udt_HMI_PB
+  Id: g=f7708b8764ec95346d15e416438b43df
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "udt_HMI_PB",
+    "DataType": {
+     "IdType": 2,
+     "Id": "f7708b8764ec95346d15e416438b43df",
+     "Namespace": 7
+    },
+    "Fields": [{
+      "Name": "ONS",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PB",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "PB_OS",
+      "DataType": {
+       "Id": 6
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"udt_HMI_PB"}
   Children:
   - Name: ns=0;Default Binary
     Type: DataTypeEncodingType

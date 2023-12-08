@@ -1,2 +1,20 @@
 Name: Converters
 Type: ConvertersCategoryFolder
+Children:
+- Name: StringFormatter1
+  Id: g=3ac811f4b6c06929dea5a6d120be9a28
+  Supertype: StringFormatter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Format
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: {"LocaleId":"en-US","Text":""}
+  - Name: Mode
+    Type: PropertyType
+    DataType: DynamicLinkMode
+    ReferenceType: HasComponent
+    ModellingRule: Optional
+    Value: 0

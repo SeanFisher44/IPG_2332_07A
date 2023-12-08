@@ -20,7 +20,7 @@ using FTOptix.EventLogger;
 #endregion
 
 [CustomBehavior]
-public class Process_VariablesBehavior : BaseNetBehavior
+public class Dispenser_SetpointsBehavior : BaseNetBehavior
 {
     public override void Start()
     {
@@ -33,6 +33,6 @@ public class Process_VariablesBehavior : BaseNetBehavior
     }
 
 #region Auto-generated code, do not edit!
-    protected new Process_Variables Node => (Process_Variables)base.Node;
+    protected new Axis_Control Node => (Axis_Control)base.Node;
 #endregion
 }

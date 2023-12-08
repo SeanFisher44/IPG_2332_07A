@@ -8,7 +8,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "bf9abf2e214115bb1dbe4162bbd25de0",
+     "Id": "03973d913619571388a331847367a620",
      "Namespace": 7
     },
     "Body": {
@@ -87,7 +87,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "6ec772a7fb3871cad0bae3a2fba1bc10",
+     "Id": "af38cbbabfb7f4899219621b95b7fef5",
      "Namespace": 7
     },
     "Body": {
@@ -97,7 +97,6 @@ Children:
    }
   Children:
   - Name: Data
-    Id: g=398f7279afe85a29b0de5886fd943381
     Type: RAEtherNetIPTag
     DataType: Int16
     Value: 0
@@ -113,7 +112,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "4f35cc9ef4661bfea736291335f8137c",
+     "Id": "5f12c4a69428f47b8545ff8c78114319",
      "Namespace": 7
     },
     "Body": {
@@ -137,7 +136,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "3c7a1d9a2b63c52b851593931813856d",
+     "Id": "328065714872142df2643f6a1bff67e4",
      "Namespace": 7
     },
     "Body": {
@@ -173,7 +172,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "3c7a1d9a2b63c52b851593931813856d",
+     "Id": "328065714872142df2643f6a1bff67e4",
      "Namespace": 7
     },
     "Body": {
@@ -202,6 +201,128 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "Local:4:O.Ch1Data"
+- Name: 'Camera_065:I'
+  Type: 'CC:InSight11_DINT8:I:0'
+  DataType: 'CC:InSight11_DINT8:I:0'
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "af3c7434a000a8b2d001a5f350849f06",
+     "Namespace": 7
+    },
+    "Body": {
+     "InspectionResults": [0,0,0,0,0,0,0,0],
+     "Status": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9e1ad183b5a7cf003a4d19e9e0fb6527",
+       "Namespace": 7
+      },
+      "Body": {
+       "AcquisitionID": 0,
+       "CommandCompleted": false,
+       "CommandExecuting": false,
+       "CommandFailed": false,
+       "CurrentJobID": 0,
+       "Error": false,
+       "ErrorCode": 0,
+       "ExposureComplete": false,
+       "InspectionCompleted": false,
+       "InspectionID": 0,
+       "InspectionResultCode": 0,
+       "JobPass": false,
+       "MissedAcq": false,
+       "OfflineReason0": false,
+       "OfflineReason1": false,
+       "OfflineReason2": false,
+       "Online": false,
+       "ResultsBufferOverrun": false,
+       "ResultsValid": false,
+       "SetUserDataAck": false,
+       "SoftEventAck0": false,
+       "SoftEventAck1": false,
+       "SoftEventAck2": false,
+       "SoftEventAck3": false,
+       "SoftEventAck4": false,
+       "SoftEventAck5": false,
+       "SoftEventAck6": false,
+       "SoftEventAck7": false,
+       "SystemBusy": false,
+       "TestRunReady": false,
+       "TriggerAck": false,
+       "TriggerReady": false
+      }
+     }
+    }
+   }
+  Children:
+  - Name: Status
+    Type: 'CC:InSight11_Status:I:0'
+    DataType: 'CC:InSight11_Status:I:0'
+    Value: 
+     {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "9e1ad183b5a7cf003a4d19e9e0fb6527",
+       "Namespace": 7
+      },
+      "Body": {
+       "AcquisitionID": 0,
+       "CommandCompleted": false,
+       "CommandExecuting": false,
+       "CommandFailed": false,
+       "CurrentJobID": 0,
+       "Error": false,
+       "ErrorCode": 0,
+       "ExposureComplete": false,
+       "InspectionCompleted": false,
+       "InspectionID": 0,
+       "InspectionResultCode": 0,
+       "JobPass": false,
+       "MissedAcq": false,
+       "OfflineReason0": false,
+       "OfflineReason1": false,
+       "OfflineReason2": false,
+       "Online": false,
+       "ResultsBufferOverrun": false,
+       "ResultsValid": false,
+       "SetUserDataAck": false,
+       "SoftEventAck0": false,
+       "SoftEventAck1": false,
+       "SoftEventAck2": false,
+       "SoftEventAck3": false,
+       "SoftEventAck4": false,
+       "SoftEventAck5": false,
+       "SoftEventAck6": false,
+       "SoftEventAck7": false,
+       "SystemBusy": false,
+       "TestRunReady": false,
+       "TriggerAck": false,
+       "TriggerReady": false
+      }
+     }
+    Children:
+    - Name: Error
+      Id: g=3c4ae99e283b57e455593e8d1ba2c728
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Camera_065:I.Status.Error"
+    - Name: Online
+      Id: g=99038665e36dc7c4977343a2b3bc6ad5
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Camera_065:I.Status.Online"
 - Name: DateTime
   Type: DateTime
   DataType: ns=7;DateTime
@@ -209,7 +330,7 @@ Children:
    {
     "TypeId": {
      "IdType": 2,
-     "Id": "28ff9f6d7b6ea60806f253ad480c5630",
+     "Id": "abacaaa4519d0e7ce0241c7d550d75a2",
      "Namespace": 7
     },
     "Body": {
@@ -233,7 +354,6 @@ Children:
       DataType: String
       Value: "DateTime.Day"
   - Name: Hour
-    Id: g=94159ed8987ad2b50640f4129b74d199
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0

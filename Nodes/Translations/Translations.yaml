@@ -9,7 +9,7 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [47,2],
+    "Dimensions": [61,2],
     "Body": [
      "Key","en-US",
      "TimeSynchronizationMode","Synchronization mode",
@@ -57,6 +57,20 @@ Children:
      "ChangePasswordFormPasswordTooShortMessage","Password too short",
      "ChangePasswordFormUserNotFoundMessage","User not found",
      "ChangePasswordFormUnsupportedOperationMessage","Unsupported operation",
-     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match"
+     "ChangePasswordFormPasswordMismatchMessage","Passwords do not match",
+     "Login","Login",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation",
+     "Current User:","Current User:",
+     "Logout","Logout",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.",
+     "LoginFormLoginSuccessful","Login successful",
+     "LoginFormPasswordExpired","Password expired",
+     "LoginFormAuthenticationFailed","Authentication failed",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently",
+     "LoginChangePasswordFormPasswordTooShort","Password too short",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match",
+     "LoginChangePasswordFormUserNotFound","User not found"
     ]
    }

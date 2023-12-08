@@ -17,3 +17,7 @@ Children:
   Type: BaseDataVariableType
   DataType: FetchModes
   Value: 1
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/sfisher/Documents/Sean Fisher/2332 - IPG/Programing/Station 7 Ferrule Bond/IPG_2332_07A.ACD"

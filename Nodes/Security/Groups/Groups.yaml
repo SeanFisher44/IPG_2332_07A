@@ -1,0 +1,9 @@
+Name: Groups
+Type: GroupsCategoryFolder
+Children:
+- Name: Administrator
+  Id: g=cf169a974c6d0b3938086a0c8997cf11
+  Type: GroupType
+- Name: Operators
+  Id: g=3dadd35b7067158772e50a2c7f5c97a2
+  Type: GroupType

@@ -4,6 +4,8 @@ using FTOptix.NetLogic;
 using FTOptix.UI;
 using FTOptix.Alarm;
 using FTOptix.EventLogger;
+using FTOptix.SerialPort;
+using FTOptix.System;
 #endregion
 
 public class AlarmGridLogic : BaseNetLogic
